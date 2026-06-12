@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — The Timber Bros Podcast</title>
+  <meta name="description" content="Get in touch with The Timber Bros Podcast — for sponsorships, guest inquiries, media, or general questions.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .reveal { opacity:0; transform:translateY(24px); transition:opacity 0.6s ease,transform 0.6s ease; }
+    .reveal.visible { opacity:1; transform:none; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 48px; align-items: start; }
+    .contact-card {
+      background: var(--charcoal-2);
+      border: 1px solid rgba(200,132,42,0.15);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+    }
+    .contact-item {
+      display: flex; gap: 16px; align-items: flex-start;
+      padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .contact-item:last-child { border-bottom: none; }
+    .contact-icon { font-size: 1.5rem; flex-shrink: 0; margin-top: 2px; }
+    .contact-item h4 { color: var(--cream-light); margin-bottom: 4px; font-size: 0.9rem; }
+    .contact-item p { color: var(--sawdust); font-size: 0.875rem; margin: 0; }
+    .contact-item a { color: var(--amber); font-size: 0.875rem; }
+    @media(max-width:760px){ .contact-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">
+      <svg class="nav-logo-ring" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="22" cy="22" r="20" fill="none" stroke="#C8842A" stroke-width="2"/>
+        <circle cx="22" cy="22" r="15" fill="none" stroke="#9A6218" stroke-width="1.2"/>
+        <circle cx="22" cy="22" r="10" fill="none" stroke="#C8842A" stroke-width="1"/>
+        <circle cx="22" cy="22" r="5" fill="none" stroke="#9A6218" stroke-width="0.8"/>
+        <circle cx="22" cy="22" r="2" fill="#C8842A"/>
+        <line x1="2" y1="22" x2="42" y2="22" stroke="#6B5240" stroke-width="0.5" opacity="0.5"/>
+        <line x1="22" y1="2" x2="22" y2="42" stroke="#6B5240" stroke-width="0.5" opacity="0.5"/>
+      </svg>
+      <div class="nav-logo-text">The Timber Bros<span>Podcast</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="hosts.html">The Hosts</a></li>
+      <li><a href="episodes.html">Episodes</a></li>
+      <li><a href="health.html">Health</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="contact.html" class="nav-cta active">Get In Touch</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Say G'day</span>
+    <h1>Get In Touch</h1>
+    <p>Whether it's about sponsorship, guesting, feedback or just a question — Hazy and Plummo reckon no message goes unanswered.</p>
+  </div>
+</div>
+
+<section class="section-dark">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="reveal">
+        <div class="contact-card">
+          <span class="eyebrow" style="margin-bottom:16px;">Direct Channels</span>
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h4>General Enquiries</h4>
+              <p>Questions, feedback, or just a yarn</p>
+              <a href="mailto:hello@thetimberbros.com">hello@thetimberbros.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div>
+              <h4>Sponsorship</h4>
+              <p>Advertising and partnership opportunities</p>
+              <a href="mailto:sponsor@thetimberbros.com">sponsor@thetimberbros.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🎙</div>
+            <div>
+              <h4>Guest Bookings</h4>
+              <p>Want to come on the show? Start here</p>
+              <a href="mailto:guests@thetimberbros.com">guests@thetimberbros.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Recorded At</h4>
+              <p>Oz Soundz Studios, Sydney NSW, Australia</p>
+              <a href="https://ozsoundzstudios.com.au" target="_blank" rel="noopener">ozsoundzstudios.com.au →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card" style="margin-top:24px;">
+          <span class="eyebrow" style="margin-bottom:16px;">Find Us Online</span>
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <a href="https://plummostimber.com" target="_blank" rel="noopener" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
+              <span>🪓</span> Plummo's Timber — plummostimber.com
+            </a>
+            <a href="https://www.hazyswood.com.au" target="_blank" rel="noopener" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
+              <span>🌲</span> Hazys Wood — hazyswood.com.au
+            </a>
+            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
+              <span>📷</span> Instagram — @thetimberbrospodcast
+            </a>
+            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
+              <span>▶️</span> YouTube — The Timber Bros Podcast
+            </a>
+            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
+              <span>🎵</span> TikTok — @thetimberbros
+            </a>
+            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
+              <span>👥</span> Facebook Group — The Timber Bros Community
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <div class="reveal">
+        <div style="background:var(--charcoal-2); border:1px solid rgba(200,132,42,0.15); border-radius:var(--radius-lg); padding:40px;">
+          <span class="eyebrow" style="margin-bottom:8px;">Drop Us a Line</span>
+          <h2 style="margin-bottom:6px;">Send a Message</h2>
+          <p style="color:var(--sawdust); font-size:0.9rem; margin-bottom:28px;">Fill in the form and we'll get back to you within a few days.</p>
+          <form data-form="contact" action="#" method="post" novalidate>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+              <div class="form-group">
+                <label for="c-fname">First Name</label>
+                <input type="text" id="c-fname" name="fname" placeholder="Mate">
+              </div>
+              <div class="form-group">
+                <label for="c-lname">Last Name</label>
+                <input type="text" id="c-lname" name="lname" placeholder="Smith">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c-email">Email Address</label>
+              <input type="email" id="c-email" name="email" placeholder="you@email.com.au">
+            </div>
+            <div class="form-group">
+              <label for="c-subject">What's This About?</label>
+              <select id="c-subject" name="subject">
+                <option value="">Select a topic</option>
+                <option>General Question</option>
+                <option>Sponsorship Enquiry</option>
+                <option>Guest Application</option>
+                <option>Show Feedback</option>
+                <option>Story Submission</option>
+                <option>Media / Press</option>
+                <option>Health Resource Suggestion</option>
+                <option>Something Else</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="c-message">Your Message</label>
+              <textarea id="c-message" name="message" rows="7" placeholder="G'day Hazy & Plummo..."></textarea>
+            </div>
+            <div class="form-group" style="display:flex;align-items:center;gap:10px;">
+              <input type="checkbox" id="c-subscribe" name="subscribe" style="width:auto;">
+              <label for="c-subscribe" style="text-transform:none;letter-spacing:0;font-size:0.85rem;font-weight:400;">Subscribe me to The Timber Bros email list for episode updates</label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:8px;">Send Message 🪵</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg width="48" height="48" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="20" fill="none" stroke="#C8842A" stroke-width="2"/>
+          <circle cx="22" cy="22" r="15" fill="none" stroke="#9A6218" stroke-width="1.2"/>
+          <circle cx="22" cy="22" r="10" fill="none" stroke="#C8842A" stroke-width="1"/>
+          <circle cx="22" cy="22" r="5" fill="none" stroke="#9A6218" stroke-width="0.8"/>
+          <circle cx="22" cy="22" r="2" fill="#C8842A"/>
+        </svg>
+        <p>Australia's favourite woodworking podcast. Recorded at Oz Soundz Studios, Sydney NSW.</p>
+      </div>
+      <div class="footer-col"><h4>The Show</h4><ul>
+        <li><a href="about.html">About the Show</a></li>
+        <li><a href="hosts.html">The Hosts</a></li>
+        <li><a href="episodes.html">All Episodes</a></li>
+        <li><a href="guests.html">Show Guests</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Community</h4><ul>
+        <li><a href="community.html">Join the Community</a></li>
+        <li><a href="community.html#feedback">Leave Feedback</a></li>
+        <li><a href="community.html#submit">Submit a Story</a></li>
+        <li><a href="health.html">Woodworker Health</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Work With Us</h4><ul>
+        <li><a href="sponsors.html">Sponsorship</a></li>
+        <li><a href="guests.html">Become a Guest</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 The Timber Bros Podcast. Made with ❤️ in Sydney, Australia.</p></div>
+  </div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

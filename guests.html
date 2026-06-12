@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Guests — The Timber Bros Podcast</title>
+  <meta name="description" content="Meet the guests who've joined Hazy and Plummo on The Timber Bros Podcast, and apply to be on the show yourself.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .reveal { opacity:0; transform:translateY(24px); transition:opacity 0.6s ease,transform 0.6s ease; }
+    .reveal.visible { opacity:1; transform:none; }
+    .guest-card {
+      background: var(--charcoal-2);
+      border: 1px solid rgba(200,132,42,0.12);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      transition: all 0.25s;
+    }
+    .guest-card:hover { border-color: rgba(200,132,42,0.35); transform: translateY(-3px); box-shadow: var(--shadow-card); }
+    .guest-ep { font-family: var(--font-mono); font-size: 0.7rem; color: var(--amber); margin-bottom: 6px; }
+    .guest-name { font-family: var(--font-display); font-size: 1.1rem; color: var(--cream-light); margin-bottom: 4px; }
+    .guest-role { font-size: 0.8rem; color: var(--smoke); margin-bottom: 10px; }
+    .guest-bio { font-size: 0.875rem; color: var(--sawdust); margin-bottom: 14px; }
+    .apply-box {
+      background: linear-gradient(135deg, rgba(200,132,42,0.1), transparent);
+      border: 2px solid rgba(200,132,42,0.25);
+      border-radius: var(--radius-lg);
+      padding: 48px;
+    }
+    .apply-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+    .form-card { background: var(--charcoal-2); border: 1px solid rgba(200,132,42,0.15); border-radius: var(--radius-lg); padding: 36px; }
+    @media(max-width:900px){
+      .apply-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">
+      <svg class="nav-logo-ring" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="22" cy="22" r="20" fill="none" stroke="#C8842A" stroke-width="2"/>
+        <circle cx="22" cy="22" r="15" fill="none" stroke="#9A6218" stroke-width="1.2"/>
+        <circle cx="22" cy="22" r="10" fill="none" stroke="#C8842A" stroke-width="1"/>
+        <circle cx="22" cy="22" r="5" fill="none" stroke="#9A6218" stroke-width="0.8"/>
+        <circle cx="22" cy="22" r="2" fill="#C8842A"/>
+        <line x1="2" y1="22" x2="42" y2="22" stroke="#6B5240" stroke-width="0.5" opacity="0.5"/>
+        <line x1="22" y1="2" x2="22" y2="42" stroke="#6B5240" stroke-width="0.5" opacity="0.5"/>
+      </svg>
+      <div class="nav-logo-text">The Timber Bros<span>Podcast</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="hosts.html">The Hosts</a></li>
+      <li><a href="episodes.html">Episodes</a></li>
+      <li><a href="health.html">Health</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="contact.html" class="nav-cta">Get In Touch</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Voices of the Industry</span>
+    <h1>Show Guests</h1>
+    <p>The makers, tradespeople, health professionals, and characters who've pulled up a stool with Hazy and Plummo.</p>
+  </div>
+</div>
+
+<section class="section-dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Past Guests</span>
+      <h2>Who's Been On the Show</h2>
+      <p>A growing roster of Australians who know their timber — and their stuff.</p>
+    </div>
+
+    <div class="grid-3" style="margin-bottom:56px;">
+      <div class="guest-card reveal">
+        <div class="guest-ep">EP. 049</div>
+        <div class="guest-name">Sarah Langford</div>
+        <div class="guest-role">🏗️ Custom Furniture Maker · NSW</div>
+        <p class="guest-bio">One of NSW's most respected custom furniture studio owners, Sarah shares her journey building a career in a male-dominated industry — the challenges, the wins, and the timber species she can't live without.</p>
+        <div class="episode-tags"><span class="tag tag-craft">Craft</span><span class="tag tag-health">Women's Health</span></div>
+      </div>
+      <div class="guest-card reveal">
+        <div class="guest-ep">EP. 047</div>
+        <div class="guest-name">Dr. Mike Parrish</div>
+        <div class="guest-role">🩺 Occupational Health Physician · VIC</div>
+        <p class="guest-bio">Dr. Parrish breaks down the occupational health risks woodworkers face every day — dust, noise, chemical exposure, and the musculoskeletal injuries that end careers if left unchecked.</p>
+        <div class="episode-tags"><span class="tag tag-health">Men's Health</span></div>
+      </div>
+      <div class="guest-card reveal">
+        <div class="guest-ep">EP. 041</div>
+        <div class="guest-name">Robbo Williams</div>
+        <div class="guest-role">🪚 Sawmill Operator · QLD</div>
+        <p class="guest-bio">Third-generation sawmiller from Far North Queensland, Robbo talks about the realities of running a portable mill business — the good seasons, the bad ones, and why he wouldn't swap it for anything.</p>
+        <div class="episode-tags"><span class="tag tag-timber">Sawmilling</span><span class="tag tag-craft">Business</span></div>
+      </div>
+      <div class="guest-card reveal">
+        <div class="guest-ep">EP. 038</div>
+        <div class="guest-name">Jess Carver</div>
+        <div class="guest-role">🎨 Resin Artist & Woodworker · WA</div>
+        <p class="guest-bio">Jess pioneered her unique style of resin-and-timber wall art and turned it into a six-figure business. She breaks down the process, the failures, and how she markets her work without a gallery.</p>
+        <div class="episode-tags"><span class="tag tag-craft">Techniques</span><span class="tag tag-craft">Business</span></div>
+      </div>
+      <div class="guest-card reveal">
+        <div class="guest-ep">EP. 033</div>
+        <div class="guest-name">Tom Strickland</div>
+        <div class="guest-role">🧠 Psychologist · Trade Specialist · NSW</div>
+        <p class="guest-bio">A psychologist who works specifically with tradespeople and men in blue-collar industries, Tom talks about what he hears in his practice — and the conversations blokes desperately need to start having.</p>
+        <div class="episode-tags"><span class="tag tag-health">Men's Health</span></div>
+      </div>
+      <div class="guest-card reveal">
+        <div class="guest-ep">EP. 027</div>
+        <div class="guest-name">Andy & Lisa Mao</div>
+        <div class="guest-role">🏡 Tiny House Builders · VIC</div>
+        <p class="guest-bio">Husband-and-wife team who build entirely off-grid, fully timber-framed tiny homes. A fascinating look at how sustainable design meets craftsmanship — and how a couple survives building together.</p>
+        <div class="episode-tags"><span class="tag tag-timber">Timber</span><span class="tag tag-craft">Business</span></div>
+      </div>
+    </div>
+
+    <!-- APPLY SECTION -->
+    <div id="apply" class="apply-box reveal">
+      <div class="apply-grid">
+        <div>
+          <span class="eyebrow">Be on the Show</span>
+          <h2 style="margin-bottom:16px;">Apply to Be a Guest</h2>
+          <p class="text-sawdust" style="margin-bottom:24px;">
+            Hazy and Plummo are always on the hunt for interesting people from the timber world. You don't have to be famous — you just have to have a story worth telling or knowledge worth sharing.
+          </p>
+          <h4 style="margin-bottom:12px;">We're Looking For</h4>
+          <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:24px;">
+            <li style="display:flex;gap:10px;font-size:0.9rem;color:var(--sawdust);"><span style="color:var(--amber);">✓</span> Woodworkers, sawmillers, carpenters, cabinet makers</li>
+            <li style="display:flex;gap:10px;font-size:0.9rem;color:var(--sawdust);"><span style="color:var(--amber);">✓</span> Tool makers, timber merchants, and suppliers</li>
+            <li style="display:flex;gap:10px;font-size:0.9rem;color:var(--sawdust);"><span style="color:var(--amber);">✓</span> Health professionals with trade experience</li>
+            <li style="display:flex;gap:10px;font-size:0.9rem;color:var(--sawdust);"><span style="color:var(--amber);">✓</span> Women in the timber industry</li>
+            <li style="display:flex;gap:10px;font-size:0.9rem;color:var(--sawdust);"><span style="color:var(--amber);">✓</span> Anyone with a genuinely ripper story</li>
+          </ul>
+          <div class="notice">
+            <strong>Note:</strong> The show is based in Sydney but guests can join in person or via remote recording. Being in another state or country is no barrier.
+          </div>
+        </div>
+        <div class="form-card">
+          <span class="eyebrow" style="margin-bottom:12px;">Guest Application</span>
+          <form data-form="guest" action="#" method="post" novalidate>
+            <div class="form-group">
+              <label for="g-name">Your Name</label>
+              <input type="text" id="g-name" name="name" placeholder="Full name">
+            </div>
+            <div class="form-group">
+              <label for="g-email">Email</label>
+              <input type="email" id="g-email" name="email" placeholder="your@email.com.au">
+            </div>
+            <div class="form-group">
+              <label for="g-loc">Location</label>
+              <input type="text" id="g-loc" name="location" placeholder="e.g. Cairns, QLD">
+            </div>
+            <div class="form-group">
+              <label for="g-craft">What You Do</label>
+              <input type="text" id="g-craft" name="craft" placeholder="e.g. Furniture maker specialising in native timbers">
+            </div>
+            <div class="form-group">
+              <label for="g-social">Your Website / Social</label>
+              <input type="url" id="g-social" name="social" placeholder="https://instagram.com/yourhandle">
+            </div>
+            <div class="form-group">
+              <label for="g-pitch">Why Should Hazy & Plummo Have You On?</label>
+              <textarea id="g-pitch" name="pitch" rows="5" placeholder="What would you talk about? What's your story? What value would you bring to the audience?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Submit Application 🪵</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg width="48" height="48" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="20" fill="none" stroke="#C8842A" stroke-width="2"/>
+          <circle cx="22" cy="22" r="15" fill="none" stroke="#9A6218" stroke-width="1.2"/>
+          <circle cx="22" cy="22" r="10" fill="none" stroke="#C8842A" stroke-width="1"/>
+          <circle cx="22" cy="22" r="5" fill="none" stroke="#9A6218" stroke-width="0.8"/>
+          <circle cx="22" cy="22" r="2" fill="#C8842A"/>
+        </svg>
+        <p>Australia's favourite woodworking podcast. Recorded at Oz Soundz Studios, Sydney NSW.</p>
+      </div>
+      <div class="footer-col"><h4>The Show</h4><ul>
+        <li><a href="about.html">About the Show</a></li>
+        <li><a href="hosts.html">The Hosts</a></li>
+        <li><a href="episodes.html">All Episodes</a></li>
+        <li><a href="guests.html">Show Guests</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Community</h4><ul>
+        <li><a href="community.html">Join the Community</a></li>
+        <li><a href="community.html#feedback">Leave Feedback</a></li>
+        <li><a href="community.html#submit">Submit a Story</a></li>
+        <li><a href="health.html">Woodworker Health</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Work With Us</h4><ul>
+        <li><a href="sponsors.html">Sponsorship</a></li>
+        <li><a href="guests.html">Become a Guest</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 The Timber Bros Podcast. Made with ❤️ in Sydney, Australia.</p></div>
+  </div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sponsorship — The Timber Bros Podcast</title>
+  <meta name="description" content="Sponsor The Timber Bros Podcast and reach Australia's most passionate woodworking audience. Tiered packages for businesses of all sizes.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .reveal { opacity:0; transform:translateY(24px); transition:opacity 0.6s ease,transform 0.6s ease; }
+    .reveal.visible { opacity:1; transform:none; }
+    .audience-bar {
+      display: grid; grid-template-columns: repeat(4,1fr);
+      background: var(--charcoal-2);
+      border: 1px solid rgba(200,132,42,0.15);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin-bottom: 56px;
+    }
+    .aud-stat { padding: 28px 24px; text-align:center; border-right: 1px solid rgba(200,132,42,0.1); }
+    .aud-stat:last-child { border-right: none; }
+    .aud-num { font-family: var(--font-display); font-size: 2.2rem; font-weight: 900; color: var(--amber); display: block; }
+    .aud-lbl { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--smoke); margin-top: 4px; display: block; }
+    .aud-sub { font-size: 0.75rem; color: var(--bark); margin-top: 4px; display: block; }
+    .tier-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; margin-bottom: 56px; }
+    .enquiry-card {
+      background: linear-gradient(135deg, rgba(200,132,42,0.1), rgba(45,74,45,0.06));
+      border: 2px solid rgba(200,132,42,0.25);
+      border-radius: var(--radius-lg);
+      padding: 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+    .form-card {
+      background: var(--charcoal-2);
+      border: 1px solid rgba(200,132,42,0.15);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+    }
+    .why-sponsor {
+      display: flex; flex-direction: column; gap: 16px;
+    }
+    .why-item { display: flex; gap: 14px; align-items: flex-start; }
+    .why-icon-box {
+      width: 40px; height: 40px; border-radius: var(--radius);
+      background: rgba(200,132,42,0.12); display: flex;
+      align-items: center; justify-content: center;
+      font-size: 1.1rem; flex-shrink: 0;
+    }
+    .why-item h4 { color: var(--cream-light); margin-bottom: 4px; font-size: 0.9rem; }
+    .why-item p { color: var(--sawdust); font-size: 0.85rem; margin: 0; }
+    .current-sponsors { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 28px; }
+    .sponsor-badge {
+      padding: 12px 20px;
+      background: var(--charcoal-2);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      font-size: 0.85rem;
+      color: var(--smoke);
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .sponsor-badge:hover { border-color: var(--amber); color: var(--amber); }
+    @media(max-width:900px){
+      .tier-grid { grid-template-columns: 1fr; }
+      .audience-bar { grid-template-columns: repeat(2,1fr); }
+      .enquiry-card { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">
+      <svg class="nav-logo-ring" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="22" cy="22" r="20" fill="none" stroke="#C8842A" stroke-width="2"/>
+        <circle cx="22" cy="22" r="15" fill="none" stroke="#9A6218" stroke-width="1.2"/>
+        <circle cx="22" cy="22" r="10" fill="none" stroke="#C8842A" stroke-width="1"/>
+        <circle cx="22" cy="22" r="5" fill="none" stroke="#9A6218" stroke-width="0.8"/>
+        <circle cx="22" cy="22" r="2" fill="#C8842A"/>
+        <line x1="2" y1="22" x2="42" y2="22" stroke="#6B5240" stroke-width="0.5" opacity="0.5"/>
+        <line x1="22" y1="2" x2="22" y2="42" stroke="#6B5240" stroke-width="0.5" opacity="0.5"/>
+      </svg>
+      <div class="nav-logo-text">The Timber Bros<span>Podcast</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="hosts.html">The Hosts</a></li>
+      <li><a href="episodes.html">Episodes</a></li>
+      <li><a href="health.html">Health</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="sponsors.html" class="active">Sponsors</a></li>
+      <li><a href="contact.html" class="nav-cta">Get In Touch</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Partner With Us</span>
+    <h1>Sponsorship</h1>
+    <p>Reach Australia's most engaged community of woodworkers, sawmillers, and timber enthusiasts — people who actually buy the gear.</p>
+  </div>
+</div>
+
+<section class="section-dark">
+  <div class="container">
+
+    <!-- AUDIENCE STATS -->
+    <div class="reveal">
+      <span class="eyebrow" style="margin-bottom:16px;">The Audience</span>
+      <div class="audience-bar">
+        <div class="aud-stat">
+          <span class="aud-num">50K+</span>
+          <span class="aud-lbl">Monthly Listeners</span>
+          <span class="aud-sub">Across all platforms</span>
+        </div>
+        <div class="aud-stat">
+          <span class="aud-num">82%</span>
+          <span class="aud-lbl">Australian Audience</span>
+          <span class="aud-sub">Local, targeted reach</span>
+        </div>
+        <div class="aud-stat">
+          <span class="aud-num">74%</span>
+          <span class="aud-lbl">Own a Workshop</span>
+          <span class="aud-sub">Active buyers of tools & timber</span>
+        </div>
+        <div class="aud-stat">
+          <span class="aud-num">91%</span>
+          <span class="aud-lbl">Completion Rate</span>
+          <span class="aud-sub">They hear your whole ad</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AUDIENCE PROFILE -->
+    <div class="grid-2" style="gap:40px; margin-bottom:60px;">
+      <div class="reveal">
+        <h3 style="margin-bottom:16px;">Who's Listening</h3>
+        <ul style="list-style:none; display:flex; flex-direction:column; gap:10px;">
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);">
+            <span style="color:var(--amber); flex-shrink:0;">🪓</span>
+            Hobbyist and professional woodworkers across Australia
+          </li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);">
+            <span style="color:var(--amber); flex-shrink:0;">🪚</span>
+            Sawmill operators, timber merchants and forest workers
+          </li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);">
+            <span style="color:var(--amber); flex-shrink:0;">🔧</span>
+            Tradespeople — carpenters, joiners, cabinet makers
+          </li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);">
+            <span style="color:var(--amber); flex-shrink:0;">🏗️</span>
+            Workshop owners and small business operators
+          </li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);">
+            <span style="color:var(--amber); flex-shrink:0;">🎨</span>
+            Furniture makers, designers and artisans
+          </li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);">
+            <span style="color:var(--amber); flex-shrink:0;">👩</span>
+            A fast-growing cohort of women in the timber industry
+          </li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h3 style="margin-bottom:16px;">What Sponsors Suit Us</h3>
+        <ul style="list-style:none; display:flex; flex-direction:column; gap:10px;">
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> Power and hand tool brands</li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> Timber merchants and hardwood suppliers</li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> Finishes, oils, resins and coatings</li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> PPE and workshop safety equipment</li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> Machinery — bandsaws, thicknessers, jointers</li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> Trade health and insurance services</li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> Workshop design and shed builders</li>
+          <li style="display:flex; gap:12px; font-size:0.9rem; color:var(--sawdust);"><span style="color:var(--amber); flex-shrink:0;">✓</span> Online courses and woodworking education</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TIERS -->
+    <div class="reveal">
+      <span class="eyebrow" style="margin-bottom:8px;">Packages</span>
+      <h2 style="margin-bottom:8px;">Choose Your Tier</h2>
+      <p class="text-sawdust" style="margin-bottom:36px;">All packages are negotiable. We'd rather find something that works for your business than turn anyone away.</p>
+    </div>
+
+    <div class="tier-grid">
+      <!-- MATE -->
+      <div class="sponsor-tier reveal">
+        <div class="tier-name">🤝 Mate</div>
+        <span class="tier-price">From $250 / episode</span>
+        <ul class="tier-features">
+          <li>Mid-roll mention (30 sec) per episode</li>
+          <li>Logo on website sponsors page</li>
+          <li>Social media shoutout x1 per month</li>
+          <li>Episode show notes link</li>
+        </ul>
+        <a href="contact.html" class="btn btn-outline" style="width:100%; justify-content:center;">Enquire →</a>
+      </div>
+
+      <!-- LEGEND -->
+      <div class="sponsor-tier featured reveal">
+        <div class="tier-badge">Most Popular</div>
+        <div class="tier-name">🪵 Legend</div>
+        <span class="tier-price">From $600 / episode</span>
+        <ul class="tier-features">
+          <li>Pre-roll AND mid-roll mentions (60 sec total)</li>
+          <li>Dedicated product review segment option</li>
+          <li>Featured logo + description on website</li>
+          <li>Social media content x3 per month</li>
+          <li>Monthly metrics report</li>
+          <li>Episode naming rights option</li>
+          <li>Priority booking for 6-episode blocks</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary" style="width:100%; justify-content:center;">Enquire →</a>
+      </div>
+
+      <!-- PRINCIPAL -->
+      <div class="sponsor-tier reveal">
+        <div class="tier-name">🏆 Principal Partner</div>
+        <span class="tier-price">From $2,000 / month</span>
+        <ul class="tier-features">
+          <li>Exclusive pre-roll (60 sec) every episode</li>
+          <li>Co-branded "Presented by" branding</li>
+          <li>Dedicated product deep-dive episodes</li>
+          <li>Workshop visit / on-location recording</li>
+          <li>Full social media integration</li>
+          <li>Website banner + dedicated sponsor page</li>
+          <li>Video sponsorship (once launched)</li>
+          <li>Direct access to Hazy & Plummo</li>
+        </ul>
+        <a href="contact.html" class="btn btn-forest" style="width:100%; justify-content:center;">Let's Talk →</a>
+      </div>
+    </div>
+
+    <!-- CURRENT SPONSORS -->
+    <div class="reveal" style="margin-bottom:56px;">
+      <span class="eyebrow" style="margin-bottom:16px;">Current Partners</span>
+      <h3 style="margin-bottom:20px;">The Businesses That Back Us</h3>
+      <p class="text-sawdust" style="margin-bottom:24px; max-width:560px;">We're grateful to the Australian businesses already supporting the show. Your brand could be here too.</p>
+      <div class="current-sponsors">
+        <a href="https://ozsoundzstudios.com.au" target="_blank" rel="noopener" class="sponsor-badge">🎚 Oz Soundz Studios</a>
+        <a href="https://plummostimber.com" target="_blank" rel="noopener" class="sponsor-badge">🪓 Plummo's Timber</a>
+        <a href="https://www.hazyswood.com.au" target="_blank" rel="noopener" class="sponsor-badge">🌲 Hazys Wood</a>
+        <span class="sponsor-badge" style="opacity:0.5; cursor:default;">Your Business Here?</span>
+      </div>
+    </div>
+
+    <!-- ENQUIRY FORM -->
+    <div class="enquiry-card reveal" id="enquire">
+      <div>
+        <span class="eyebrow">Sound Interesting?</span>
+        <h2 style="margin-bottom:16px;">Let's Have a Chat</h2>
+        <p class="text-sawdust" style="margin-bottom:28px;">No hard sell. No lock-in contracts forced on you. Just two blokes who want to help your business reach the people who'll love it.</p>
+        <div class="why-sponsor">
+          <div class="why-item">
+            <div class="why-icon-box">🎯</div>
+            <div><h4>Genuine Reach</h4><p>Not inflated numbers. Real Australian woodworkers who buy tools and timber regularly.</p></div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon-box">🔊</div>
+            <div><h4>Authentic Reads</h4><p>Hazy and Plummo read every ad in their own voice. The audience trusts them — and by extension, you.</p></div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon-box">📈</div>
+            <div><h4>Growing Fast</h4><p>The show is growing every fortnight. Getting in early means better rates and better positioning.</p></div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon-box">🎥</div>
+            <div><h4>Video Coming</h4><p>Video sponsorship packages will be available when the podcast hits screens. Secure your spot now.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="form-card">
+        <span class="eyebrow" style="margin-bottom:12px;">Sponsorship Enquiry</span>
+        <form data-form="sponsor" action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="sp-company">Business Name</label>
+            <input type="text" id="sp-company" name="company" placeholder="Your company name">
+          </div>
+          <div class="form-group">
+            <label for="sp-name">Your Name</label>
+            <input type="text" id="sp-name" name="name" placeholder="First and last name">
+          </div>
+          <div class="form-group">
+            <label for="sp-email">Email</label>
+            <input type="email" id="sp-email" name="email" placeholder="work@yourbusiness.com.au">
+          </div>
+          <div class="form-group">
+            <label for="sp-tier">Interested In</label>
+            <select id="sp-tier" name="tier">
+              <option value="">Select a package</option>
+              <option>🤝 Mate — from $250/ep</option>
+              <option>🪵 Legend — from $600/ep</option>
+              <option>🏆 Principal — from $2,000/mo</option>
+              <option>Not sure — let's talk</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sp-product">What You Sell</label>
+            <input type="text" id="sp-product" name="product" placeholder="e.g. Hardwood finishing oils">
+          </div>
+          <div class="form-group">
+            <label for="sp-message">Anything Else?</label>
+            <textarea id="sp-message" name="message" rows="3" placeholder="Tell us a bit about your business and what you're hoping to achieve..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Enquiry 🪵</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg width="48" height="48" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="20" fill="none" stroke="#C8842A" stroke-width="2"/>
+          <circle cx="22" cy="22" r="15" fill="none" stroke="#9A6218" stroke-width="1.2"/>
+          <circle cx="22" cy="22" r="10" fill="none" stroke="#C8842A" stroke-width="1"/>
+          <circle cx="22" cy="22" r="5" fill="none" stroke="#9A6218" stroke-width="0.8"/>
+          <circle cx="22" cy="22" r="2" fill="#C8842A"/>
+        </svg>
+        <p>Australia's favourite woodworking podcast. Recorded at Oz Soundz Studios, Sydney NSW.</p>
+      </div>
+      <div class="footer-col"><h4>The Show</h4><ul>
+        <li><a href="about.html">About the Show</a></li>
+        <li><a href="hosts.html">The Hosts</a></li>
+        <li><a href="episodes.html">All Episodes</a></li>
+        <li><a href="guests.html">Show Guests</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Community</h4><ul>
+        <li><a href="community.html">Join the Community</a></li>
+        <li><a href="community.html#feedback">Leave Feedback</a></li>
+        <li><a href="community.html#submit">Submit a Story</a></li>
+        <li><a href="health.html">Woodworker Health</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Work With Us</h4><ul>
+        <li><a href="sponsors.html">Sponsorship</a></li>
+        <li><a href="guests.html">Become a Guest</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 The Timber Bros Podcast. Made with ❤️ in Sydney, Australia.</p></div>
+  </div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>
