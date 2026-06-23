@@ -134,12 +134,14 @@
     <div class="grid-2" style="gap:40px; align-items:start;">
 
       <!-- FEEDBACK FORM -->
+      
       <div id="feedback">
         <div class="form-card reveal">
           <span class="eyebrow">Tell Us What You Think</span>
           <h2>Leave Feedback</h2>
           <p>Hazy and Plummo actually read these. Rate an episode, suggest a topic, or just let us know what's working and what's not.</p>
-          <form data-form="feedback" action="#" method="post" novalidate>
+          <form data-form="feedback" action="https://formspree.io/f/xbdvljpr" method="post">
+            <input type="hidden" name="_subject" value="New Feedback — Timber Bros">
             <div class="form-row">
               <div class="form-group">
                 <label for="fb-name">Your Name</label>
@@ -192,13 +194,15 @@
       </div>
 
       <!-- STORY SUBMISSION + NEWSLETTER -->
+      
       <div style="display:flex; flex-direction:column; gap:28px;">
 
         <div id="submit" class="form-card reveal">
           <span class="eyebrow">Share Your Story</span>
           <h2>Submit a Story</h2>
           <p>Got a ripper build, a workshop horror story, or a journey worth sharing? We want to hear it — and might feature it on the show.</p>
-          <form data-form="story" action="#" method="post" novalidate>
+          <form data-form="story" action="https://formspree.io/f/mnjknqoq" method="post">
+            <input type="hidden" name="_subject" value="New Story Submission — Timber Bros">
             <div class="form-group">
               <label for="st-name">Your Name</label>
               <input type="text" id="st-name" name="name" placeholder="Full name or handle">
@@ -230,11 +234,13 @@
         </div>
 
         <!-- VIDEO NOTIFY -->
+        
         <div class="video-notify reveal">
           <div style="font-size:2.5rem; margin-bottom:12px;">🎥</div>
           <h3 style="margin-bottom:8px;">Get Notified When Video Launches</h3>
           <p style="color:var(--smoke); font-size:0.9rem; margin-bottom:20px;">The Timber Bros are going to video. Be the first to know when the visual podcast drops.</p>
-          <form data-form="notify" action="#" method="post" novalidate style="display:flex; gap:10px; flex-wrap:wrap;">
+          <form data-form="notify" action="https://formspree.io/f/xvzjgovn" method="post">
+            <input type="hidden" name="_subject" value="Video Launch Signup — Timber Bros">
             <input type="email" name="email" placeholder="your@email.com" style="flex:1; min-width:200px;">
             <button type="submit" class="btn btn-primary" style="white-space:nowrap;">Notify Me</button>
           </form>
