@@ -1,16 +1,24 @@
 {
   "hubText": "Follow us, tag us, DM us. The Timber Bros community lives across social platforms — come say g'day and share what you're building.",
   "socialLinks": [
-    { "label": "📷 Instagram", "url": "https://www.instagram.com/thetimberbrospodcast" },
-    { "label": "🎵 TikTok", "url": "https://www.tiktok.com/@the_timber_bros" },
-    { "label": "▶️ YouTube", "url": "https://www.youtube.com/@TheTimberBrosPodcast" }
+    {
+      "label": "📷 Instagram",
+      "url": "https://www.instagram.com/thetimberbrospodcast"
+    },
+    {
+      "label": "🎵 TikTok",
+      "url": "https://www.tiktok.com/@the_timber_bros"
+    },
+    {
+      "label": "▶️ YouTube",
+      "url": "https://www.youtube.com/@TheTimberBrosPodcast"
+    }
   ],
   "testimonials": [
-    { "text": "Finally a podcast that actually talks like a tradie, not like they're reading from a script. The chainsaw mill episode is the most useful hour of audio I've ever listened to in the shed.", "author": "— Craig M.", "location": "Toowoomba, QLD" },
-    { "text": "I was struggling badly with my mental health last year and stumbled onto the Bloke Check-In episode. It changed something for me. I made an appointment the next week. Cheers lads.", "author": "— Anonymous", "location": "Regional NSW" },
-    { "text": "As a woman running a timber studio, it means the world to see a show that's not just blokes talking to blokes. The Women in Timber episode had me crying in the workshop. Best kind of cry.", "author": "— Tess R.", "location": "Melbourne, VIC" },
-    { "text": "Hazy and Plummo have the best chemistry of any podcast I listen to. You can tell they actually like each other and the craft. That energy is infectious.", "author": "— Barry K.", "location": "Perth, WA" },
-    { "text": "I put this on when I'm milling and it makes the day fly. Educational, funny, and they don't treat you like an idiot. Exactly what the Aussie woodworking scene needed.", "author": "— Mike T.", "location": "Launceston, TAS" },
-    { "text": "The hardwood species episode should be required listening for every woodworker in this country. Printed the species guide and put it on the workshop wall.", "author": "— Dan W.", "location": "Adelaide, SA" }
+    {
+      "text": "I was struggling badly with my mental health last year and stumbled onto the Bloke Check-In episode. It changed something for me. I made an appointment the next week. Cheers lads.",
+      "author": "— Anonymous",
+      "location": "Regional NSW"
+    }
   ]
 }
