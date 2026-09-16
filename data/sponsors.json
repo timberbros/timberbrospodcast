@@ -1,9 +1,9 @@
 {
   "audienceStats": [
-    { "num": "50K+", "label": "Monthly Listeners", "sub": "Across all platforms" },
+    { "num": "40+", "label": "Monthly Listeners", "sub": "Across all platforms" },
     { "num": "82%", "label": "Australian Audience", "sub": "Local, targeted reach" },
     { "num": "74%", "label": "Own a Workshop", "sub": "Active buyers of tools & timber" },
-    { "num": "91%", "label": "Completion Rate", "sub": "They hear your whole ad" }
+    { "num": "30%", "label": "Completion Rate", "sub": "They hear your whole ad" }
   ],
   "tiers": [
     {
@@ -26,7 +26,7 @@
       "id": "legend",
       "icon": "🪵",
       "name": "Legend",
-      "price": "From $600 / episode",
+      "price": "From $550 / episode",
       "features": [
         "Pre-roll AND mid-roll mentions (60 sec total)",
         "Dedicated product review segment option",
@@ -50,9 +50,7 @@
         "Exclusive pre-roll (60 sec) every episode",
         "Co-branded \"Presented by\" branding",
         "Dedicated product deep-dive episodes",
-        "Workshop visit / on-location recording",
-        "Full social media integration",
-        "Website banner + dedicated sponsor page",
+        "Website banner + dedicated spot on sponsor page",
         "Video sponsorship (once launched)",
         "Direct access to Hazy & Plummo"
       ],

@@ -28,10 +28,10 @@
   function tagsHTML(tags) {
     if (!tags || !tags.length) return '';
     const cls = {
-      'Timber': 'tag-timber', 'Sawmilling': 'tag-timber',
-      'Tools': 'tag-tools',
-      'Craft': 'tag-craft', 'Techniques': 'tag-craft', 'Business': 'tag-craft', 'Interview': 'tag-craft',
-      "Men's Health": 'tag-health', "Women's Health": 'tag-health'
+      'Timber': 'tag-timber', 'Sawmilling': 'tag-timber', 'Finishes': 'tag-timber', 'Huon Pine': 'tag-timber',
+      'Tools': 'tag-tools', 'Routers': 'tag-tools',
+      'Craft': 'tag-craft', 'Techniques': 'tag-craft', 'Business': 'tag-craft', 'Interview': 'tag-craft', 'Intro': 'tag-craft', 'Pen Making': 'tag-craft',
+      "Men's Health": 'tag-health', "Women's Health": 'tag-health', 'Heart Health': 'tag-health'
     };
     return '<div class="episode-tags">' + tags.map(t =>
       `<span class="tag ${cls[t] || 'tag-craft'}">${esc(t)}</span>`
@@ -127,7 +127,7 @@
     el.innerHTML = data.hosts.map(h => `
       <div class="host-full reveal visible">
         <div class="host-header">
-          <div class="host-avatar-lg">${esc(h.icon)}</div>
+          <div class="host-avatar-lg">${h.photo ? `<img src="${esc(h.photo)}" alt="${esc(h.name)}" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">` : esc(h.icon)}</div>
           <div class="host-header-info">
             <span class="eyebrow">Host — Co-Founder</span>
             <h2>${esc(h.name)}</h2>

@@ -1,13 +1,13 @@
 {
   "originParagraphs": [
-    "The Timber Bros Podcast kicked off when Hazy and Plummo — both active creators in Australia's woodworking world — realised the conversations happening in the comments section, at markets, and between mates deserved a proper home.",
+    "The Timber Bros Podcast kicked off when Plummo and Hazy — both active creators in Australia's woodworking world — realised the conversations happening in the comments section, at markets, and between mates deserved a proper home.",
     "Together they represent <a href=\"https://plummostimber.com\" target=\"_blank\" rel=\"noopener\">Plummo's Timber</a> and <a href=\"https://www.hazyswood.com.au\" target=\"_blank\" rel=\"noopener\">Hazys Wood</a> — two well-known names in the Aussie woodworking scene on social media — bringing those same communities into a long-form, no-frills podcast format.",
-    "The show is recorded at <strong style=\"color:var(--cream)\"><a href=\"https://ozsoundzstudios.com.au\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--cream)\">Oz Soundz Studios</a></strong> in Sydney NSW, and releases fortnightly on all major podcast platforms.",
+    "The show is recorded at <strong style=\"color:var(--cream)\"><a href=\"https://ozsoundzstudios.com.au\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--cream)\">Oz Soundz Studios</a></strong> in Sydney NSW, and releases monthly on all major podcast platforms.",
     "While currently audio-only, the lads are heading to video — with full visual episodes, workshop tours, and behind-the-scenes content in the pipeline. Watch this space."
   ],
   "quote": "\"We just wanted a yarn. Turns out a lot of people wanted to listen in.\"",
   "formatItems": [
-    { "icon": "🎙", "boldText": "Fortnightly episodes", "rest": "— new drops every two weeks" },
+    { "icon": "🎙", "boldText": "Monthly episodes", "rest": "— new drops every four weeks" },
     { "icon": "⏱", "boldText": "45–75 minutes", "rest": "— long enough to go deep, short enough to get through on the drive" },
     { "icon": "🎧", "boldText": "Audio podcast", "rest": "— available on Spotify, Apple, Overcast, YouTube & more" },
     { "icon": "🎥", "boldText": "Video podcast coming soon", "rest": "— filmed at Oz Soundz Studios" },
@@ -28,11 +28,8 @@
     { "icon": "💜", "title": "Women's Health & Women in Timber", "text": "Celebrating and supporting the women in our industry. Health conversations that matter, and shining a light on female makers doing amazing work." }
   ],
   "platforms": [
-    { "label": "🎵 Spotify", "url": "#" },
-    { "label": "🎙 Apple Podcasts", "url": "#" },
-    { "label": "📻 Overcast", "url": "#" },
-    { "label": "▶️ YouTube", "url": "#" },
-    { "label": "🎧 Pocket Casts", "url": "#" },
-    { "label": "📱 Google Podcasts", "url": "#" }
+    { "label": "🎵 Spotify", "url": "https://open.spotify.com/embed/show/5O1AOs52a1x6n0r0FPPpCs?utm_source=generator&si=bc7c2bbe7ab24421" },
+    { "label": "🎙 Apple Podcasts", "url": "https://podcasts.apple.com/au/podcast/the-timber-bros-podcast/id1877556782" },
+    { "label": "▶️ YouTube", "url": "https://www.youtube.com/@TheTimberBrosPodcast" }
   ]
 }

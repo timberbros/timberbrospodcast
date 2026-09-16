@@ -1,11 +1,9 @@
 {
   "hubText": "Follow us, tag us, DM us. The Timber Bros community lives across social platforms — come say g'day and share what you're building.",
   "socialLinks": [
-    { "label": "📷 Instagram", "url": "#" },
-    { "label": "🎵 TikTok", "url": "#" },
-    { "label": "▶️ YouTube", "url": "#" },
-    { "label": "👥 Facebook Group", "url": "#" },
-    { "label": "🎙 Discord", "url": "#" }
+    { "label": "📷 Instagram", "url": "https://www.instagram.com/thetimberbrospodcast" },
+    { "label": "🎵 TikTok", "url": "https://www.tiktok.com/@the_timber_bros" },
+    { "label": "▶️ YouTube", "url": "https://www.youtube.com/@TheTimberBrosPodcast" }
   ],
   "testimonials": [
     { "text": "Finally a podcast that actually talks like a tradie, not like they're reading from a script. The chainsaw mill episode is the most useful hour of audio I've ever listened to in the shed.", "author": "— Craig M.", "location": "Toowoomba, QLD" },

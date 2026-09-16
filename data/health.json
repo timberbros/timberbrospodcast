@@ -21,12 +21,12 @@
   ],
   "womensIntro": "Women are a growing and vital part of the Australian woodworking and timber industry. The Timber Bros are committed to highlighting and supporting women's health, wellbeing, and their place in the craft.",
   "womensOrgs": [
-    { "icon": "💜", "name": "Jean Hailes for Women's Health", "desc": "Australia's leading women's health organisation — covering everything from hormonal health to mental wellbeing and workplace issues.", "linkText": "jean-hailes.org.au →", "phone": "", "url": "https://www.jean-hailes.org.au" },
+    { "icon": "💜", "name": "Jean Hailes for Women's Health", "desc": "Australia's leading women's health organisation — covering everything from hormonal health to mental wellbeing and workplace issues.", "linkText": "jean-hailes.org.au →", "phone": "", "url": "https://www.jeanhailes.org.au" },
     { "icon": "🛡", "name": "1800RESPECT", "desc": "National sexual assault, domestic and family violence counselling service. Available 24/7 — confidential and free.", "linkText": "1800respect.org.au →", "phone": "1800 737 732", "url": "https://www.1800respect.org.au" },
     { "icon": "🔵", "name": "Beyond Blue — Women", "desc": "Mental health support tailored to women's experiences — including postnatal depression, anxiety in the workplace, and more.", "linkText": "beyondblue.org.au →", "phone": "1300 22 4636", "url": "https://www.beyondblue.org.au" },
     { "icon": "🎗", "name": "Cancer Australia", "desc": "Information, support and resources for women facing cancer — particularly breast cancer awareness and screening.", "linkText": "canceraustralia.gov.au →", "phone": "", "url": "https://www.canceraustralia.gov.au" },
     { "icon": "🐼", "name": "PANDA", "desc": "Perinatal Anxiety and Depression Australia — supporting women, men and families affected by perinatal mental health conditions.", "linkText": "panda.org.au →", "phone": "1300 726 306", "url": "https://www.panda.org.au" },
-    { "icon": "🌲", "name": "Women in Timber", "desc": "Industry network supporting women across the Australian timber and forest products sector — mentoring, events, and community.", "linkText": "womenintimber.com.au →", "phone": "", "url": "https://www.womenintimber.com.au" }
+    { "icon": "🌲", "name": "Breast Cancer Network Australia", "desc": "Industry network supporting women impacted by Breast Cancer — services, support and community.", "linkText": "bcna.org.au →", "phone": "", "url": "https://www.bcna.org.au/" }
   ],
   "womensTips": [
     { "title": "💜 Women's Occupational Health in the Workshop", "text": "Respiratory protection, ergonomic tool sizing, and chemical exposure risks are often calibrated for male bodies. Women should be especially mindful to verify PPE sizing fits correctly, and to seek out research and advice specific to female physiology in trade environments." },

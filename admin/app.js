@@ -164,7 +164,8 @@ const SCHEMA = {
       type: 'list', key: 'hosts', label: 'Hosts',
       itemLabel: h => h.name || '(unnamed)',
       fields: [
-        fld('icon', 'Avatar Emoji'),
+        fld('photo', 'Photo path (e.g. "../images/plummo.jpg") — leave blank to use the emoji avatar instead'),
+        fld('icon', 'Avatar Emoji (used when no photo is set)'),
         fld('name', 'Name'),
         fld('subtitle', 'Subtitle (e.g. "Plummo\'s Timber · Sydney NSW")'),
         fld('tagline', 'Short Tagline', 'textarea'),
@@ -172,7 +173,7 @@ const SCHEMA = {
         fld('bio', 'Bio Paragraphs — JSON array of HTML strings', 'json'),
         fld('links', 'Links — JSON array of {label, url, style: primary|outline}', 'json')
       ],
-      newItem: () => ({ id: 'host' + Date.now(), icon: '🪵', name: '', subtitle: '', tagline: '', stats: [], bio: [], links: [] })
+      newItem: () => ({ id: 'host' + Date.now(), icon: '🪵', photo: '', name: '', subtitle: '', tagline: '', stats: [], bio: [], links: [] })
     }]
   },
   sponsors: {
