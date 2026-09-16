@@ -10,20 +10,56 @@
     "youtubeUrl": "https://music.youtube.com/@TheTimberBrosPodcast"
   },
   "stats": [
-    { "num": "5+", "label": "Episodes Released" },
-    { "num": "4+", "label": "Platforms" },
-    { "num": "100%", "label": "Australian Made" },
-    { "num": "Oz", "label": "Soundz Studios, Sydney" }
+    {
+      "num": "5+",
+      "label": "Episodes Released"
+    },
+    {
+      "num": "4+",
+      "label": "Platforms"
+    },
+    {
+      "num": "100%",
+      "label": "Australian Made"
+    },
+    {
+      "num": "Oz",
+      "label": "Soundz Studios, Sydney"
+    }
   ],
   "topics": [
-    { "icon": "🪵", "label": "Timber Species & Slabs" },
-    { "icon": "🔧", "label": "Tools & Reviews" },
-    { "icon": "🪚", "label": "Sawmilling" },
-    { "icon": "🎨", "label": "Finishing & Resin" },
-    { "icon": "🏗️", "label": "Workshop Setups" },
-    { "icon": "❤️", "label": "Men's Health" },
-    { "icon": "💜", "label": "Women's Health" },
-    { "icon": "🤝", "label": "Industry Stories" }
+    {
+      "icon": "🪵",
+      "label": "Timber Species & Slabs"
+    },
+    {
+      "icon": "🔧",
+      "label": "Tools & Reviews"
+    },
+    {
+      "icon": "🪚",
+      "label": "Sawmilling"
+    },
+    {
+      "icon": "🎨",
+      "label": "Finishing & Resin"
+    },
+    {
+      "icon": "🏗️",
+      "label": "Workshop Setups"
+    },
+    {
+      "icon": "❤️",
+      "label": "Men's Health"
+    },
+    {
+      "icon": "💜",
+      "label": "Women's Health"
+    },
+    {
+      "icon": "🤝",
+      "label": "Industry Stories"
+    }
   ],
   "videoTeaser": {
     "title": "Video Podcast Coming Soon",
