@@ -30,12 +30,13 @@ function clearAuth() { localStorage.removeItem(AUTH_KEY); }
 async function ghRequest(path, opts) {
   const auth = getAuth();
   if (!auth) throw new Error('Not signed in');
-  const res = await fetch('https://api.github.com' + path, Object.assign({
-    headers: {
+  opts = opts || {};
+  const res = await fetch('https://api.github.com' + path, Object.assign({}, opts, {
+    headers: Object.assign({
       'Authorization': 'Bearer ' + auth.token,
       'Accept': 'application/vnd.github+json'
-    }
-  }, opts));
+    }, opts.headers || {})
+  }));
   if (!res.ok) {
     const body = await res.text().catch(() => '');
     throw new Error(`GitHub API ${res.status}: ${res.statusText} ${body ? '— ' + body.slice(0, 300) : ''}`);
