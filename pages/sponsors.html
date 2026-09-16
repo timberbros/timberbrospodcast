@@ -92,7 +92,6 @@
       <li><a href="about.html">About</a></li>
       <li><a href="hosts.html">The Hosts</a></li>
       <li><a href="episodes.html">Episodes</a></li>
-      <li><a href="guests.html">Guests</a></li>
       <li><a href="health.html">Health</a></li>
       <li><a href="community.html">Community</a></li>
       <li><a href="sponsors.html" class="active">Sponsors</a></li>
@@ -116,28 +115,7 @@
     <!-- AUDIENCE STATS -->
     <div class="reveal">
       <span class="eyebrow" style="margin-bottom:16px;">The Audience</span>
-      <div class="audience-bar">
-        <div class="aud-stat">
-          <span class="aud-num">40+</span>
-          <span class="aud-lbl">Monthly Listeners</span>
-          <span class="aud-sub">Across all platforms</span>
-        </div>
-        <div class="aud-stat">
-          <span class="aud-num">82%</span>
-          <span class="aud-lbl">Australian Audience</span>
-          <span class="aud-sub">Local, targeted reach</span>
-        </div>
-        <div class="aud-stat">
-          <span class="aud-num">74%</span>
-          <span class="aud-lbl">Own a Workshop</span>
-          <span class="aud-sub">Active buyers of tools & timber</span>
-        </div>
-        <div class="aud-stat">
-          <span class="aud-num">30%</span>
-          <span class="aud-lbl">Completion Rate</span>
-          <span class="aud-sub">They hear your whole ad</span>
-        </div>
-      </div>
+      <div class="audience-bar" id="cms-audience-stats"></div>
     </div>
 
     <!-- AUDIENCE PROFILE -->
@@ -193,66 +171,15 @@
       <p class="text-sawdust" style="margin-bottom:36px;">All packages are negotiable. We'd rather find something that works for your business than turn anyone away.</p>
     </div>
 
-    <div class="tier-grid">
-      <!-- MATE -->
-      <div class="sponsor-tier reveal">
-        <div class="tier-name">🤝 Mate</div>
-        <span class="tier-price">From $250 / episode</span>
-        <ul class="tier-features">
-          <li>Mid-roll mention (30 sec) per episode</li>
-          <li>Logo on website sponsors page</li>
-          <li>Social media shoutout x1 per month</li>
-          <li>Episode show notes link</li>
-        </ul>
-        <a href="contact.html" class="btn btn-outline" style="width:100%; justify-content:center;">Enquire →</a>
-      </div>
-
-      <!-- LEGEND -->
-      <div class="sponsor-tier featured reveal">
-        <div class="tier-badge">Most Popular</div>
-        <div class="tier-name">🪵 Legend</div>
-        <span class="tier-price">From $550 / episode</span>
-        <ul class="tier-features">
-          <li>Pre-roll AND mid-roll mentions (60 sec total)</li>
-          <li>Dedicated product review segment option</li>
-          <li>Featured logo + description on website</li>
-          <li>Social media content x3 per month</li>
-          <li>Monthly metrics report</li>
-          <li>Episode naming rights option</li>
-          <li>Priority booking for 6-episode blocks</li>
-        </ul>
-        <a href="contact.html" class="btn btn-primary" style="width:100%; justify-content:center;">Enquire →</a>
-      </div>
-
-      <!-- PRINCIPAL -->
-      <div class="sponsor-tier reveal">
-        <div class="tier-name">🏆 Principal Partner</div>
-        <span class="tier-price">From $2,000 / month</span>
-        <ul class="tier-features">
-          <li>Exclusive pre-roll (60 sec) every episode</li>
-          <li>Co-branded "Presented by" branding</li>
-          <li>Dedicated product deep-dive episodes</li>
-          <!--<li>Workshop visit / on-location recording</li>-->
-          <!-- <li>Full social media integration</li>-->
-          <li>Website banner + dedicated spot on sponsor page</li>
-          <li>Video sponsorship (once launched)</li>
-          <li>Direct access to Hazy & Plummo</li>
-        </ul>
-        <a href="contact.html" class="btn btn-forest" style="width:100%; justify-content:center;">Let's Talk →</a>
-      </div>
-    </div>
+    <!-- TIER GRID (rendered from /data/sponsors.json) -->
+    <div class="tier-grid" id="cms-tier-grid"></div>
 
     <!-- CURRENT SPONSORS -->
     <div class="reveal" style="margin-bottom:56px;">
       <span class="eyebrow" style="margin-bottom:16px;">Current Partners</span>
       <h3 style="margin-bottom:20px;">The Businesses That Back Us</h3>
       <p class="text-sawdust" style="margin-bottom:24px; max-width:560px;">We're grateful to the Australian businesses already supporting the show. Your brand could be here too.</p>
-      <div class="current-sponsors">
-        <a href="https://ozsoundzstudios.com.au" target="_blank" rel="noopener" class="sponsor-badge">🎚 Oz Soundz Studios</a>
-        <a href="https://plummostimber.com" target="_blank" rel="noopener" class="sponsor-badge">🪓 Plummo's Timber</a>
-        <a href="https://www.hazyswood.com.au" target="_blank" rel="noopener" class="sponsor-badge">🌲 Hazys Wood</a>
-        <span class="sponsor-badge" style="opacity:0.5; cursor:default;">Your Business Here?</span>
-      </div>
+      <div class="current-sponsors" id="cms-current-sponsors"></div>
     </div>
 
     <!-- ENQUIRY FORM -->
@@ -282,8 +209,7 @@
       </div>
       <div class="form-card">
         <span class="eyebrow" style="margin-bottom:12px;">Sponsorship Enquiry</span>
-        <form action="https://formspree.io/f/xbdvllez" method="POST"></form>
-         <input type="hidden" name="_subject" value="New Sponsorship — Timber Bros">
+        <form data-form="sponsor" action="#" method="post" novalidate>
           <div class="form-group">
             <label for="sp-company">Business Name</label>
             <input type="text" id="sp-company" name="company" placeholder="Your company name">
@@ -301,7 +227,7 @@
             <select id="sp-tier" name="tier">
               <option value="">Select a package</option>
               <option>🤝 Mate — from $250/ep</option>
-              <option>🪵 Legend — from $550/ep</option>
+              <option>🪵 Legend — from $600/ep</option>
               <option>🏆 Principal — from $2,000/mo</option>
               <option>Not sure — let's talk</option>
             </select>
@@ -357,5 +283,7 @@
   </div>
 </footer>
 <script src="../js/main.js"></script>
+<script src="../js/cms-render.js"></script>
+<script>TimberBrosCMS.renderSponsors();</script>
 </body>
 </html>

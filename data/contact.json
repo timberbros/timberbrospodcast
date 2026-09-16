@@ -1,0 +1,16 @@
+{
+  "contactItems": [
+    { "icon": "📧", "title": "General Enquiries", "desc": "Questions, feedback, or just a yarn", "linkText": "hello@thetimberbros.com", "url": "mailto:hello@thetimberbros.com" },
+    { "icon": "💼", "title": "Sponsorship", "desc": "Advertising and partnership opportunities", "linkText": "sponsor@thetimberbros.com", "url": "mailto:sponsor@thetimberbros.com" },
+    { "icon": "🎙", "title": "Guest Bookings", "desc": "Want to come on the show? Start here", "linkText": "guests@thetimberbros.com", "url": "mailto:guests@thetimberbros.com" },
+    { "icon": "📍", "title": "Recorded At", "desc": "Oz Soundz Studios, Sydney NSW, Australia", "linkText": "ozsoundzstudios.com.au →", "url": "https://ozsoundzstudios.com.au" }
+  ],
+  "socialLinks": [
+    { "icon": "🪓", "label": "Plummo's Timber — plummostimber.com", "url": "https://plummostimber.com" },
+    { "icon": "🌲", "label": "Hazys Wood — hazyswood.com.au", "url": "https://www.hazyswood.com.au" },
+    { "icon": "📷", "label": "Instagram — @thetimberbrospodcast", "url": "#" },
+    { "icon": "▶️", "label": "YouTube — The Timber Bros Podcast", "url": "#" },
+    { "icon": "🎵", "label": "TikTok — @thetimberbros", "url": "#" },
+    { "icon": "👥", "label": "Facebook Group — The Timber Bros Community", "url": "#" }
+  ]
+}

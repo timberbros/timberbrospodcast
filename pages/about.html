@@ -79,7 +79,6 @@
       <li><a href="about.html" class="active">About</a></li>
       <li><a href="hosts.html">The Hosts</a></li>
       <li><a href="episodes.html">Episodes</a></li>
-      <li><a href="guests.html">Guests</a></li>
       <li><a href="health.html">Health</a></li>
       <li><a href="community.html">Community</a></li>
       <li><a href="sponsors.html">Sponsors</a></li>
@@ -95,7 +94,7 @@
   <div class="container">
     <span class="eyebrow">The Story</span>
     <h1>About the Show</h1>
-    <p>How two timber-loving mates and Sydneysiders turned workshop banter into one of Australia's most honest woodworking podcasts.</p>
+    <p>How two timber-loving Sydneysiders turned workshop banter into one of Australia's most honest woodworking podcasts.</p>
   </div>
 </div>
 
@@ -105,56 +104,16 @@
       <div class="reveal">
         <span class="eyebrow">Our Origin</span>
         <h2>Born in the Shed, Built for the Community</h2>
-        <p class="text-sawdust" style="margin-top:16px;">
-          The Timber Bros Podcast kicked off when Plummo and Hazy — both active creators in Australia's woodworking world — realised the conversations happening in the comments section, at markets, and between mates deserved a proper home.
-        </p>
-        <div class="quote-block">
-          "We just wanted a yarn. Turns out a lot of people wanted to listen in."
-        </div>
-        <p class="text-sawdust">
-          Together they represent <a href="https://plummostimber.com" target="_blank" rel="noopener">Plummo's Timber</a> and <a href="https://www.hazyswood.com.au" target="_blank" rel="noopener">Hazys Wood</a> — two well-known names in the Aussie woodworking scene on social media — bringing those same communities into a long-form, no-frills podcast format.
-        </p>
-        <p class="text-sawdust">
-          The show is recorded at <strong style="color:var(--cream)"><a href="https://ozsoundzstudios.com.au" target="_blank" rel="noopener" style="color:var(--cream)">Oz Soundz Studios</a></strong> in Sydney NSW, and releases monthly on all major podcast platforms.
-        </p>
-        <p class="text-sawdust">
-          While currently audio-only, the lads are heading to video — with full visual episodes, workshop tours, and behind-the-scenes content in the pipeline. Watch this space.
-        </p>
+        <div id="cms-origin-text"></div>
+
+        <div class="quote-block" id="cms-quote"></div>
       </div>
       <div class="reveal">
         <div style="background:var(--charcoal-2); border:1px solid rgba(200,132,42,0.15); border-radius:var(--radius-lg); padding:36px; margin-bottom:24px;">
           <span class="eyebrow" style="margin-bottom:16px;">The Format</span>
-          <ul style="list-style:none; display:flex; flex-direction:column; gap:14px;">
-            <li style="display:flex; gap:14px; align-items:flex-start; font-size:0.95rem; color:var(--sawdust);">
-              <span style="color:var(--amber); font-weight:700; font-size:1.1rem; flex-shrink:0;">🎙</span>
-              <span><strong style="color:var(--cream);">Monthly episodes</strong> — new drops every four weeks</span>
-            </li>
-            <li style="display:flex; gap:14px; align-items:flex-start; font-size:0.95rem; color:var(--sawdust);">
-              <span style="color:var(--amber); font-weight:700; font-size:1.1rem; flex-shrink:0;">⏱</span>
-              <span><strong style="color:var(--cream);">45–75 minutes</strong> — long enough to go deep, short enough to get through on the drive</span>
-            </li>
-            <li style="display:flex; gap:14px; align-items:flex-start; font-size:0.95rem; color:var(--sawdust);">
-              <span style="color:var(--amber); font-weight:700; font-size:1.1rem; flex-shrink:0;">🎧</span>
-              <span><strong style="color:var(--cream);">Audio podcast</strong> — available on Spotify, Apple, Overcast, YouTube & more</span>
-            </li>
-            <li style="display:flex; gap:14px; align-items:flex-start; font-size:0.95rem; color:var(--sawdust);">
-              <span style="color:var(--amber); font-weight:700; font-size:1.1rem; flex-shrink:0;">🎥</span>
-              <span><strong style="color:var(--cream);">Video podcast coming soon</strong> — filmed at Oz Soundz Studios</span>
-            </li>
-            <li style="display:flex; gap:14px; align-items:flex-start; font-size:0.95rem; color:var(--sawdust);">
-              <span style="color:var(--amber); font-weight:700; font-size:1.1rem; flex-shrink:0;">📍</span>
-              <span><strong style="color:var(--cream);">Sydney, NSW</strong> — proudly Australian, made for Aussie woodworkers</span>
-            </li>
-          </ul>
+          <ul style="list-style:none; display:flex; flex-direction:column; gap:14px;" id="cms-format-list"></ul>
         </div>
-        <div class="studio-card reveal">
-          <div class="studio-icon">🎚</div>
-          <div>
-            <h4 style="color:var(--amber); margin-bottom:6px;">Recorded at Oz Soundz Studios</h4>
-            <p style="font-size:0.9rem; color:var(--sawdust); margin:0;">Sydney NSW — professional audio production giving The Timber Bros the sound quality their content deserves.</p>
-            <a href="https://ozsoundzstudios.com.au" target="_blank" rel="noopener" class="text-amber" style="font-size:0.85rem; font-weight:600; margin-top:8px; display:inline-block;">ozsoundzstudios.com.au →</a>
-          </div>
-        </div>
+        <div class="studio-card reveal" id="cms-studio-card"></div>
       </div>
     </div>
   </div>
@@ -176,50 +135,8 @@
       <span class="eyebrow">Why Listen?</span>
       <h2>What You'll Get Out of It</h2>
     </div>
-    <div class="grid-2" style="gap:20px;">
-      <div class="why-card reveal">
-        <div class="why-icon">🪵</div>
-        <div>
-          <h4>The Craft</h4>
-          <p>Deep dives into timber species, resin techniques, finishing secrets, and the slow art of doing things right — even when it takes a little longer.</p>
-        </div>
-      </div>
-      <div class="why-card reveal">
-        <div class="why-icon">🔧</div>
-        <div>
-          <h4>The Tools</h4>
-          <p>Honest reviews, head-to-head comparisons, and no-BS advice on the gear that's worth your hard-earned. From chainsaws to chisels.</p>
-        </div>
-      </div>
-      <div class="why-card reveal">
-        <div class="why-icon">🏗️</div>
-        <div>
-          <h4>The Business</h4>
-          <p>The reality of running a timber business or workshop in the modern world — marketing, social media, pricing, and the stories behind the sawdust.</p>
-        </div>
-      </div>
-      <div class="why-card reveal">
-        <div class="why-icon">🤝</div>
-        <div>
-          <h4>The Community</h4>
-          <p>Interviews with artisans, designers, sawmillers, and people who love working with their hands. People who've earned their calluses.</p>
-        </div>
-      </div>
-      <div class="why-card reveal">
-        <div class="why-icon">❤️</div>
-        <div>
-          <h4>Men's Health</h4>
-          <p>Important conversations about mental health, physical wellbeing, and the unique pressures men in trades face — spoken plainly, without the fluff.</p>
-        </div>
-      </div>
-      <div class="why-card reveal">
-        <div class="why-icon">💜</div>
-        <div>
-          <h4>Women's Health & Women in Timber</h4>
-          <p>Celebrating and supporting the women in our industry. Health conversations that matter, and shining a light on female makers doing amazing work.</p>
-        </div>
-      </div>
-    </div>
+    <div class="grid-2" style="gap:20px;" id="cms-why-cards"></div>
+
   </div>
 </section>
 
@@ -230,11 +147,7 @@
       <h2>Find Us On Your Platform</h2>
       <p>Available wherever you listen to podcasts. New episodes every fortnight.</p>
     </div>
-    <div class="platform-strip reveal">
-      <a href="https://open.spotify.com/embed/show/5O1AOs52a1x6n0r0FPPpCs?utm_source=generator&si=bc7c2bbe7ab24421" class="platform-btn">🎵 Spotify</a>
-      <a href="https://podcasts.apple.com/au/podcast/the-timber-bros-podcast/id1877556782" class="platform-btn">🎙 Apple Podcasts</a>
-      <a href="https://www.youtube.com/@TheTimberBrosPodcast" class="platform-btn">▶️ YouTube</a>
-    </div>
+    <div class="platform-strip reveal" id="cms-platform-strip"></div>
     <div style="margin-top:40px; display:flex; gap:16px; flex-wrap:wrap;">
       <a href="episodes.html" class="btn btn-primary">Browse All Episodes</a>
       <a href="community.html" class="btn btn-outline">Join the Community</a>
@@ -279,5 +192,7 @@
   </div>
 </footer>
 <script src="../js/main.js"></script>
+<script src="../js/cms-render.js"></script>
+<script>TimberBrosCMS.renderAbout();</script>
 </body>
 </html>

@@ -1,0 +1,71 @@
+{
+  "audienceStats": [
+    { "num": "50K+", "label": "Monthly Listeners", "sub": "Across all platforms" },
+    { "num": "82%", "label": "Australian Audience", "sub": "Local, targeted reach" },
+    { "num": "74%", "label": "Own a Workshop", "sub": "Active buyers of tools & timber" },
+    { "num": "91%", "label": "Completion Rate", "sub": "They hear your whole ad" }
+  ],
+  "tiers": [
+    {
+      "id": "mate",
+      "icon": "🤝",
+      "name": "Mate",
+      "price": "From $250 / episode",
+      "features": [
+        "Mid-roll mention (30 sec) per episode",
+        "Logo on website sponsors page",
+        "Social media shoutout x1 per month",
+        "Episode show notes link"
+      ],
+      "cta": "Enquire →",
+      "ctaStyle": "outline",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": "legend",
+      "icon": "🪵",
+      "name": "Legend",
+      "price": "From $600 / episode",
+      "features": [
+        "Pre-roll AND mid-roll mentions (60 sec total)",
+        "Dedicated product review segment option",
+        "Featured logo + description on website",
+        "Social media content x3 per month",
+        "Monthly metrics report",
+        "Episode naming rights option",
+        "Priority booking for 6-episode blocks"
+      ],
+      "cta": "Enquire →",
+      "ctaStyle": "primary",
+      "featured": true,
+      "badge": "Most Popular"
+    },
+    {
+      "id": "principal",
+      "icon": "🏆",
+      "name": "Principal Partner",
+      "price": "From $2,000 / month",
+      "features": [
+        "Exclusive pre-roll (60 sec) every episode",
+        "Co-branded \"Presented by\" branding",
+        "Dedicated product deep-dive episodes",
+        "Workshop visit / on-location recording",
+        "Full social media integration",
+        "Website banner + dedicated sponsor page",
+        "Video sponsorship (once launched)",
+        "Direct access to Hazy & Plummo"
+      ],
+      "cta": "Let's Talk →",
+      "ctaStyle": "forest",
+      "featured": false,
+      "badge": ""
+    }
+  ],
+  "currentSponsors": [
+    { "label": "🎚 Oz Soundz Studios", "url": "https://ozsoundzstudios.com.au" },
+    { "label": "🪓 Plummo's Timber", "url": "https://plummostimber.com" },
+    { "label": "🌲 Hazys Wood", "url": "https://www.hazyswood.com.au" },
+    { "label": "Your Business Here?", "url": "", "placeholder": true }
+  ]
+}

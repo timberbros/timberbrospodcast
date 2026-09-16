@@ -108,7 +108,6 @@
       <li><a href="about.html">About</a></li>
       <li><a href="hosts.html">The Hosts</a></li>
       <li><a href="episodes.html" class="active">Episodes</a></li>
-      <li><a href="guests.html">Guests</a></li>
       <li><a href="health.html">Health</a></li>
       <li><a href="community.html">Community</a></li>
       <li><a href="sponsors.html">Sponsors</a></li>
@@ -122,138 +121,28 @@
   <div class="container">
     <span class="eyebrow">Every Episode</span>
     <h1>The Full Library</h1>
-    <p>New episodes every month. Grab a coffee, pull up a stool, and have a listen.</p>
+    <p>New episodes every fortnight. Grab a coffee, pull up a stool, and have a listen.</p>
   </div>
 </div>
 
 <section class="section-dark">
   <div class="container">
 
-    <!-- FEATURED -->
-    <div class="featured-ep reveal">
-      <button class="featured-ep-play" aria-label="Play latest episode">▶</button>
-      <div>
-        <span class="featured-badge">🔥 Latest Episode</span>
-        <h2>Ep. 05 — Jarrah, Wood Lathes, Dust, 3D Printing & Shed Legends</h2>
-        <p>In this episode Plummo & Hazy let fly with a shed full of Jarrah, wood lathes, 3D printing, sanding tips and enough Aussie banter to keep the splinters laughing.</p>
-        <div class="episode-tags" style="margin-bottom:16px;">
-          <span class="tag tag-timber">Timber</span>
-          <span class="tag tag-tools">Tools</span>
-          <span class="tag tag-health">Men's Health</span>
-        </div>
-        <div class="stream-row">
-          <a href="https://open.spotify.com/show/5O1AOs52a1x6n0r0FPPpCs?si=1fea17cd97224813" class="stream-btn">🎵 Spotify</a>
-          <a href="https://podcasts.apple.com/au/podcast/the-timber-bros-podcast/id1877556782" class="stream-btn">🎙 Apple</a>
-          <a href="https://music.youtube.com/@TheTimberBrosPodcast" class="stream-btn">▶️ YouTube</a>
-        </div>
-      </div>
-    </div>
+    <!-- FEATURED (rendered from /data/episodes.json) -->
+    <div class="featured-ep reveal visible" id="cms-featured-episode"></div>
 
-    <!-- FILTER -->
-    <div class="filter-bar reveal">
-      <button class="filter-btn active">All Episodes</button>
-      <button class="filter-btn">🪵 Timber</button>
-      <button class="filter-btn">🔧 Tools</button>
-      <button class="filter-btn">🎨 Techniques</button>
-      <button class="filter-btn">❤️ Men's Health</button>
-      <button class="filter-btn">💜 Women's Health</button>
-      <button class="filter-btn">🤝 Interviews</button>
-      <button class="filter-btn">🏗️ Business</button>
-    </div>
+    <!-- FILTER (rendered from /data/episodes.json tags) -->
+    <div class="filter-bar reveal visible" id="cms-filter-bar"></div>
 
-    <!-- EPISODE GRID -->
-    <div class="ep-grid">
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 04</span><span class="ep-date">3 May 2026</span></div>
-        <h3>EP04 — Jigs, Gigs and Heart Rigs</h3>
-        <p>Fire up the shed and join Plummo & Hazy for another ripper episode of The Timber Bros Podcast—packed with timber, tools, workshop banter, Aussie laughs, and a powerful Heartwood yarn with original Yellow Wiggle Greg Page about heart health, resilience, and looking after the one tool you can’t replace.</p>
-        <div class="episode-tags"><span class="tag tag-health">Men's Health</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 63 min</span><button class="ep-play" aria-label="Play episode 3">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 03</span><span class="ep-date">15 Apr 2026</span></div>
-        <h3>EP03 — Timber & Tall Ships - Huon Pine Gold</h3>
-        <p>A raw and honest chat about ancient Huon Pine timbers from Tassie and it being used in the building of the STS Young Endeavour Tall ship with offcuts being made into luxury pens. We talk Japanese saws, Aussie Hardwoods and an honest chat about alcohol consumption.</p>
-        <div class="episode-tags"><span class="tag tag-health">Men's Health</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 63 min</span><button class="ep-play" aria-label="Play episode 3">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 02</span><span class="ep-date"> 15 Mar 2026</span></div>
-        <h3>EP02 — Sawdust, Routers & Real Talk</h3>
-        <p>We dive into episode two with a chart about routers, finishes and practical tips and tricks and share our experiences in the shed and get inside our own heads. We also chat Diabaetes which is a siletn killer in Australia and the globe.</p>
-        <div class="episode-tags"><span class="tag tag-tools">Routers</span><span class="tag tag-timber">Finishes</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 52 min</span><button class="ep-play" aria-label="Play episode 2">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 01</span><span class="ep-date">14 Feb 2026</span></div>
-        <h3>EP01 — Measure Twice, Cut Once, Talk Anytime</h3>
-        <p>In our inaugural episode and the commencement of a podcast era join Plummo and Hazy as we chat all things timber, mens health with a lot of larrikin mixed in.</p>
-        <div class="episode-tags"><span class="tag tag-health">Men's Health</span><span class="tag tag-craft">Intro</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 55 min</span><button class="ep-play" aria-label="Play episode 1">▶</button></div>
-      </div>
-<!-- HOLDING CARDS-->
- <!--
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 048</span><span class="ep-date">21 Apr 2025</span></div>
-        <h3>Resin: The Good, The Bad & The Ugly</h3>
-        <p>Everything you wanted to know about high-clarity epoxy resin casting — from prep and pouring to the horror stories of what can go wrong.</p>
-        <div class="episode-tags"><span class="tag tag-craft">Techniques</span><span class="tag tag-timber">Timber</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 66 min</span><button class="ep-play" aria-label="Play episode 48">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 047</span><span class="ep-date">7 Apr 2025</span></div>
-        <h3>Back Pain, Hearing Loss & Workshop Safety</h3>
-        <p>The occupational health hazards that woodworkers ignore until it's too late. Dr. Mike Parrish joins to explain what you need to know.</p>
-        <div class="episode-tags"><span class="tag tag-health">Men's Health</span><span class="tag tag-craft">Interview</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 54 min</span><button class="ep-play" aria-label="Play episode 47">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 046</span><span class="ep-date">24 Mar 2025</span></div>
-        <h3>Australian Hardwoods: A Field Guide</h3>
-        <p>Ironbark, Blackwood, Huon Pine, Red Cedar — Plummo and Hazy break down the character and working properties of iconic Aussie species.</p>
-        <div class="episode-tags"><span class="tag tag-timber">Timber</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 78 min</span><button class="ep-play" aria-label="Play episode 46">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 045</span><span class="ep-date">10 Mar 2025</span></div>
-        <h3>Setting Up Your First Real Workshop</h3>
-        <p>From a back shed with a jigsaw to a proper setup — the decisions, the spend, and the order of operations that actually make sense.</p>
-        <div class="episode-tags"><span class="tag tag-tools">Tools</span><span class="tag tag-craft">Business</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 69 min</span><button class="ep-play" aria-label="Play episode 45">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 044</span><span class="ep-date">24 Feb 2025</span></div>
-        <h3>The Social Media Woodworker: Is It Worth It?</h3>
-        <p>Hazy and Plummo get personal about how building an audience online changed their businesses — the good, the grind, and the weird side.</p>
-        <div class="episode-tags"><span class="tag tag-craft">Business</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 61 min</span><button class="ep-play" aria-label="Play episode 44">▶</button></div>
-      </div>
-
-      <div class="ep-card reveal">
-        <div class="ep-meta"><span class="ep-number">EP. 043</span><span class="ep-date">10 Feb 2025</span></div>
-        <h3>Hand Tools vs Power Tools: The Real Debate</h3>
-        <p>Both hosts take a side and argue it hard. Who wins? That's for the listeners to decide. Spoiler: it gets heated.</p>
-        <div class="episode-tags"><span class="tag tag-tools">Tools</span></div>
-        <div class="ep-footer"><span class="ep-duration">⏱ 73 min</span><button class="ep-play" aria-label="Play episode 43">▶</button></div>
-      </div>
-    -->
-
-    </div>
+    <!-- EPISODE GRID (rendered from /data/episodes.json) -->
+    <div class="ep-grid" id="cms-episode-grid"></div>
 
     <div style="text-align:center; margin-top:48px;" class="reveal">
       <p class="text-smoke" style="margin-bottom:16px;">Find the full back catalogue on your preferred platform</p>
       <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-          <a href="https://open.spotify.com/show/5O1AOs52a1x6n0r0FPPpCs?si=1fea17cd97224813" class="stream-btn-primary">🎵 Spotify</a>
-          <a href="https://podcasts.apple.com/au/podcast/the-timber-bros-podcast/id1877556782" class="stream-btn-outline">🎙 Apple</a>
-          <a href="https://music.youtube.com/@TheTimberBrosPodcast" class="stream-btn-outline">▶️ YouTube</a>
+        <a href="#" class="btn btn-primary">🎵 Spotify</a>
+        <a href="#" class="btn btn-outline">🎙 Apple Podcasts</a>
+        <a href="#" class="btn btn-outline">▶️ YouTube</a>
       </div>
     </div>
 
@@ -295,14 +184,7 @@
   </div>
 </footer>
 <script src="../js/main.js"></script>
-<script>
-  // Filter button interaction
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-    });
-  });
-</script>
+<script src="../js/cms-render.js"></script>
+<script>TimberBrosCMS.renderEpisodes();</script>
 </body>
 </html>

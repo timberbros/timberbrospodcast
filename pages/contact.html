@@ -49,7 +49,6 @@
       <li><a href="about.html">About</a></li>
       <li><a href="hosts.html">The Hosts</a></li>
       <li><a href="episodes.html">Episodes</a></li>
-      <li><a href="guests.html">Guests</a></li>
       <li><a href="health.html">Health</a></li>
       <li><a href="community.html">Community</a></li>
       <li><a href="sponsors.html">Sponsors</a></li>
@@ -74,62 +73,12 @@
       <div class="reveal">
         <div class="contact-card">
           <span class="eyebrow" style="margin-bottom:16px;">Direct Channels</span>
-          <div class="contact-item">
-            <div class="contact-icon">📧</div>
-            <div>
-              <h4>General Enquiries</h4>
-              <p>Questions, feedback, or just a yarn</p>
-              <a href="mailto:hello@thetimberbros.com">hello@thetimberbros.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">💼</div>
-            <div>
-              <h4>Sponsorship</h4>
-              <p>Advertising and partnership opportunities</p>
-              <a href="mailto:sponsor@thetimberbros.com">sponsor@thetimberbros.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">🎙</div>
-            <div>
-              <h4>Guest Bookings</h4>
-              <p>Want to come on the show? Start here</p>
-              <a href="mailto:guests@thetimberbros.com">guests@thetimberbros.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">📍</div>
-            <div>
-              <h4>Recorded At</h4>
-              <p>Oz Soundz Studios, Sydney NSW, Australia</p>
-              <a href="https://ozsoundzstudios.com.au" target="_blank" rel="noopener">ozsoundzstudios.com.au →</a>
-            </div>
-          </div>
+          <div id="cms-contact-items"></div>
         </div>
 
         <div class="contact-card" style="margin-top:24px;">
           <span class="eyebrow" style="margin-bottom:16px;">Find Us Online</span>
-          <div style="display:flex; flex-direction:column; gap:12px;">
-            <a href="https://plummostimber.com" target="_blank" rel="noopener" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
-              <span>🪓</span> Plummo's Timber — plummostimber.com
-            </a>
-            <a href="https://www.hazyswood.com.au" target="_blank" rel="noopener" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
-              <span>🌲</span> Hazys Wood — hazyswood.com.au
-            </a>
-            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
-              <span>📷</span> Instagram — @thetimberbrospodcast
-            </a>
-            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
-              <span>▶️</span> YouTube — The Timber Bros Podcast
-            </a>
-            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
-              <span>🎵</span> TikTok — @thetimberbros
-            </a>
-            <a href="#" style="display:flex; gap:12px; align-items:center; color:var(--sawdust); font-size:0.9rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#C8842A'" onmouseout="this.style.color=''">
-              <span>👥</span> Facebook Group — The Timber Bros Community
-            </a>
-          </div>
+          <div style="display:flex; flex-direction:column; gap:12px;" id="cms-contact-social"></div>
         </div>
       </div>
 
@@ -139,8 +88,7 @@
           <span class="eyebrow" style="margin-bottom:8px;">Drop Us a Line</span>
           <h2 style="margin-bottom:6px;">Send a Message</h2>
           <p style="color:var(--sawdust); font-size:0.9rem; margin-bottom:28px;">Fill in the form and we'll get back to you within a few days.</p>
-          <form action="https://formspree.io/f/xlgkognv" method="POST">
-            <input type="hidden" name="_subject" value="New Contact — Timber Bros">
+          <form data-form="contact" action="#" method="post" novalidate>
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
               <div class="form-group">
                 <label for="c-fname">First Name</label>
@@ -221,5 +169,7 @@
   </div>
 </footer>
 <script src="../js/main.js"></script>
+<script src="../js/cms-render.js"></script>
+<script>TimberBrosCMS.renderContact();</script>
 </body>
 </html>

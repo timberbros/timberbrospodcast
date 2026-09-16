@@ -98,7 +98,6 @@
       <li><a href="about.html">About</a></li>
       <li><a href="hosts.html">The Hosts</a></li>
       <li><a href="episodes.html">Episodes</a></li>
-      <li><a href="guests.html">Guests</a></li>
       <li><a href="health.html">Health</a></li>
       <li><a href="community.html" class="active">Community</a></li>
       <li><a href="sponsors.html">Sponsors</a></li>
@@ -123,25 +122,19 @@
     <div class="community-hub reveal">
       <div style="font-size:3rem; margin-bottom:16px;">🪵</div>
       <h2>Join the Crew</h2>
-      <p>Follow us, tag us, DM us. The Timber Bros community lives across social platforms — come say g'day and share what you're building.</p>
-      <div class="social-hub">
-        <a href="https://www.instagram.com/thetimberbrospodcast" class="social-card">📷 Instagram</a>
-        <a href="https://www.tiktok.com/@the_timber_bros" class="social-card">🎵 TikTok</a>
-        <a href="https://www.youtube.com/@TheTimberBrosPodcast" class="social-card">▶️ YouTube</a>
-      </div>
+      <p id="cms-community-hub-text">Follow us, tag us, DM us. The Timber Bros community lives across social platforms — come say g'day and share what you're building.</p>
+      <div class="social-hub" id="cms-social-hub"></div>
     </div>
 
     <div class="grid-2" style="gap:40px; align-items:start;">
 
       <!-- FEEDBACK FORM -->
-      
       <div id="feedback">
         <div class="form-card reveal">
           <span class="eyebrow">Tell Us What You Think</span>
           <h2>Leave Feedback</h2>
           <p>Hazy and Plummo actually read these. Rate an episode, suggest a topic, or just let us know what's working and what's not.</p>
-          <form action="https://formspree.io/f/xbdvljpr" method="POST">
-            <input type="hidden" name="_subject" value="New Feedback — Timber Bros">
+          <form data-form="feedback" action="#" method="post" novalidate>
             <div class="form-row">
               <div class="form-group">
                 <label for="fb-name">Your Name</label>
@@ -169,13 +162,12 @@
             <div class="form-group">
               <label>How would you rate the show?</label>
               <div class="star-rating" role="group" aria-label="Star rating">
-  <span class="star" data-val="1" role="button" tabindex="0" aria-label="1 star">⭐</span>
-  <span class="star" data-val="2" role="button" tabindex="0" aria-label="2 stars">⭐</span>
-  <span class="star" data-val="3" role="button" tabindex="0" aria-label="3 stars">⭐</span>
-  <span class="star" data-val="4" role="button" tabindex="0" aria-label="4 stars">⭐</span>
-  <span class="star" data-val="5" role="button" tabindex="0" aria-label="5 stars">⭐</span>
-</div>
-<input type="hidden" id="star-value" name="rating" value="">
+                <span class="star" data-val="1" role="button" tabindex="0" aria-label="1 star">⭐</span>
+                <span class="star" data-val="2" role="button" tabindex="0" aria-label="2 stars">⭐</span>
+                <span class="star" data-val="3" role="button" tabindex="0" aria-label="3 stars">⭐</span>
+                <span class="star" data-val="4" role="button" tabindex="0" aria-label="4 stars">⭐</span>
+                <span class="star" data-val="5" role="button" tabindex="0" aria-label="5 stars">⭐</span>
+              </div>
             </div>
             <div class="form-group">
               <label for="fb-episode">Favourite Episode (if any)</label>
@@ -195,15 +187,13 @@
       </div>
 
       <!-- STORY SUBMISSION + NEWSLETTER -->
-      
       <div style="display:flex; flex-direction:column; gap:28px;">
 
         <div id="submit" class="form-card reveal">
           <span class="eyebrow">Share Your Story</span>
           <h2>Submit a Story</h2>
           <p>Got a ripper build, a workshop horror story, or a journey worth sharing? We want to hear it — and might feature it on the show.</p>
-          <form action="https://formspree.io/f/mnjknqoq" method="POST">
-            <input type="hidden" name="_subject" value="New Story Submission — Timber Bros">
+          <form data-form="story" action="#" method="post" novalidate>
             <div class="form-group">
               <label for="st-name">Your Name</label>
               <input type="text" id="st-name" name="name" placeholder="Full name or handle">
@@ -235,19 +225,14 @@
         </div>
 
         <!-- VIDEO NOTIFY -->
-        
         <div class="video-notify reveal">
           <div style="font-size:2.5rem; margin-bottom:12px;">🎥</div>
           <h3 style="margin-bottom:8px;">Get Notified When Video Launches</h3>
           <p style="color:var(--smoke); font-size:0.9rem; margin-bottom:20px;">The Timber Bros are going to video. Be the first to know when the visual podcast drops.</p>
-          <form action="https://formspree.io/f/xvzjgovn" method="POST">
-  <input type="hidden" name="_subject" value="Video Launch Signup — Timber Bros">
-  <div style="display:flex; gap:10px; flex-wrap:wrap;">
-    <input type="email" name="email" placeholder="your@email.com" required
-      style="flex:1; min-width:200px;">
-    <button type="submit" class="btn btn-primary" style="white-space:nowrap;">Notify Me</button>
-  </div>
-</form>
+          <form data-form="notify" action="#" method="post" novalidate style="display:flex; gap:10px; flex-wrap:wrap;">
+            <input type="email" name="email" placeholder="your@email.com" style="flex:1; min-width:200px;">
+            <button type="submit" class="btn btn-primary" style="white-space:nowrap;">Notify Me</button>
+          </form>
         </div>
 
       </div>
@@ -269,38 +254,7 @@
         <h2>Community Voices</h2>
         <p>What the Aussie woodworking community is saying about The Timber Bros.</p>
       </div>
-      <div class="testimonial-grid">
-        <div class="testimonial reveal">
-          <p class="testimonial-text">Finally a podcast that actually talks like a tradie, not like they're reading from a script. The chainsaw mill episode is the most useful hour of audio I've ever listened to in the shed.</p>
-          <span class="testimonial-author">— Craig M.</span>
-          <span class="testimonial-location">Toowoomba, QLD</span>
-        </div>
-        <div class="testimonial reveal">
-          <p class="testimonial-text">I was struggling badly with my mental health last year and stumbled onto the Bloke Check-In episode. It changed something for me. I made an appointment the next week. Cheers lads.</p>
-          <span class="testimonial-author">— Anonymous</span>
-          <span class="testimonial-location">Regional NSW</span>
-        </div>
-        <div class="testimonial reveal">
-          <p class="testimonial-text">As a woman running a timber studio, it means the world to see a show that's not just blokes talking to blokes. The Women in Timber episode had me crying in the workshop. Best kind of cry.</p>
-          <span class="testimonial-author">— Tess R.</span>
-          <span class="testimonial-location">Melbourne, VIC</span>
-        </div>
-        <div class="testimonial reveal">
-          <p class="testimonial-text">Hazy and Plummo have the best chemistry of any podcast I listen to. You can tell they actually like each other and the craft. That energy is infectious.</p>
-          <span class="testimonial-author">— Barry K.</span>
-          <span class="testimonial-location">Perth, WA</span>
-        </div>
-        <div class="testimonial reveal">
-          <p class="testimonial-text">I put this on when I'm milling and it makes the day fly. Educational, funny, and they don't treat you like an idiot. Exactly what the Aussie woodworking scene needed.</p>
-          <span class="testimonial-author">— Mike T.</span>
-          <span class="testimonial-location">Launceston, TAS</span>
-        </div>
-        <div class="testimonial reveal">
-          <p class="testimonial-text">The hardwood species episode should be required listening for every woodworker in this country. Printed the species guide and put it on the workshop wall.</p>
-          <span class="testimonial-author">— Dan W.</span>
-          <span class="testimonial-location">Adelaide, SA</span>
-        </div>
-      </div>
+      <div class="testimonial-grid" id="cms-testimonials"></div>
     </div>
 
   </div>
@@ -341,18 +295,17 @@
   </div>
 </footer>
 <script src="../js/main.js"></script>
+<script src="../js/cms-render.js"></script>
+<script>TimberBrosCMS.renderCommunity();</script>
 <script>
   // Star rating interaction
-  <script>
   const stars = document.querySelectorAll('.star');
   stars.forEach(star => {
     star.addEventListener('click', () => {
       const val = parseInt(star.dataset.val);
       stars.forEach(s => s.classList.toggle('active', parseInt(s.dataset.val) <= val));
-      document.getElementById('star-value').value = val + ' stars';
     });
   });
-</script>
   // Radio opt styling
   document.querySelectorAll('.radio-opt input').forEach(input => {
     input.addEventListener('change', () => {

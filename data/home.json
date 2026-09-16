@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "eyebrow": "🪵 Sydney, Australia — Est. 2024",
+    "titleLine1": "Two Blokes.",
+    "titleLine2": "One Love of Timber.",
+    "lead": "Hazy and Plummo pull up a stool and crack into the world of Australian woodworking — timber species, sawmill stories, tool talk, workshop craft, and the real conversations about men's and women's health that our industry needs.",
+    "spotifyUrl": "#",
+    "appleUrl": "#",
+    "overcastUrl": "#",
+    "youtubeUrl": "#"
+  },
+  "stats": [
+    { "num": "50+", "label": "Episodes Released" },
+    { "num": "4", "label": "Platforms" },
+    { "num": "100%", "label": "Australian Made" },
+    { "num": "Oz", "label": "Soundz Studios, Sydney" }
+  ],
+  "topics": [
+    { "icon": "🪵", "label": "Timber Species & Slabs" },
+    { "icon": "🔧", "label": "Tools & Reviews" },
+    { "icon": "🪚", "label": "Sawmilling" },
+    { "icon": "🎨", "label": "Finishing & Resin" },
+    { "icon": "🏗️", "label": "Workshop Setups" },
+    { "icon": "❤️", "label": "Men's Health" },
+    { "icon": "💜", "label": "Women's Health" },
+    { "icon": "🤝", "label": "Industry Stories" }
+  ],
+  "videoTeaser": {
+    "title": "Video Podcast Coming Soon",
+    "text": "We're heading to the screen. Catch behind-the-scenes footage, workshop tours, and full visual episodes dropping soon."
+  },
+  "hostsTeaser": {
+    "text": "Two Sydney-based woodworkers who've turned their passion — and their social communities — into one of Australia's best conversations about timber and the life that surrounds it. Together they represent Hazys Wood and Plummo's Timber, both well-known names in the Aussie woodworking scene.",
+    "studioText": "Recorded at <strong><a href=\"https://ozsoundzstudios.com.au\" style=\"color:var(--cream);\">Oz Soundz Studios</a></strong>, Sydney NSW"
+  },
+  "sponsorCta": {
+    "eyebrow": "For Australian Businesses",
+    "title": "Partner With The Timber Bros",
+    "text": "Reach a passionate, loyal audience of Australian woodworkers, tradespeople, and timber enthusiasts. Whether you sell tools, timber, finishes, or safety gear — your product belongs in their ears."
+  }
+}

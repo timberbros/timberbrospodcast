@@ -74,7 +74,6 @@
       <li><a href="pages/about.html">About</a></li>
       <li><a href="pages/hosts.html">The Hosts</a></li>
       <li><a href="pages/episodes.html">Episodes</a></li>
-      <li><a href="pages/guests.html">Guests</a></li>
       <li><a href="pages/health.html">Health</a></li>
       <li><a href="pages/community.html">Community</a></li>
       <li><a href="pages/sponsors.html">Sponsors</a></li>
@@ -87,7 +86,7 @@
 </nav>
 
 <!-- HERO -->
-<!--<section class="hero">
+<section class="hero">
   <div class="hero-bg" aria-hidden="true"></div>
   <svg class="hero-rings" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <circle cx="300" cy="300" r="280" fill="none" stroke="#C8842A" stroke-width="3"/>
@@ -101,22 +100,11 @@
     <line x1="300" y1="20" x2="300" y2="580" stroke="#C8842A" stroke-width="0.8"/>
   </svg>
   <div class="container">
-    <div class="hero-content"> -->
-  <section class="hero">
-  <!--<div class="hero-bg" aria-hidden="true"></div>-->
-  <img class="hero-image" src="images/TimberBrosPodcast Logo Smaller 50.jpg" alt="The Timber Bros Podcast Logo">
-
-  <div class="container">
     <div class="hero-content">
-
-      <span class="eyebrow">🪵 Sydney, Australia — Est. 2024</span>
-      <h1>
-        Two Blokes.
-        <em>One Love of Timber.</em>
-      </h1>
-      <p class="hero-lead">
-        Plummo and Hazy pull up a stool and crack into the world of Australian woodworking — timber species, sawmill stories, tool talk, workshop craft, and the real conversations about men's and women's health that our industry needs.
-      </p>
+      <span class="eyebrow" id="cms-hero-eyebrow">🪵 Sydney, Australia — Est. 2024</span>
+      <h1 id="cms-hero-title">Two Blokes.
+        <em>One Love of Timber.</em></h1>
+      <p class="hero-lead" id="cms-hero-lead"></p>
       <div class="hero-actions">
         <a href="pages/episodes.html" class="btn btn-primary">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3 2.5l10 5.5-10 5.5z"/></svg>
@@ -124,49 +112,14 @@
         </a>
         <a href="pages/about.html" class="btn btn-outline">About the Show</a>
       </div>
-      <div class="listen-badges">
-        <span class="listen-label">Find us on</span>
-        <a href="https://open.spotify.com/show/5O1AOs52a1x6n0r0FPPpCs?si=014ed58358194fca" class="badge" aria-label="Listen on Spotify">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="#1DB954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
-          Spotify
-        </a>
-        <a href="https://podcasts.apple.com/au/podcast/the-timber-bros-podcast/id1877556782" class="badge" aria-label="Listen on Apple Podcasts">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="#A855F7"><path d="M12 0C5.4 0 0 5.373 0 12s5.4 12 12 12 12-5.373 12-12S18.6 0 12 0zm.613 16.82c-.134.066-.28.1-.427.1s-.294-.034-.427-.1c-.414-.203-4.126-2.12-4.126-6.82 0-2.507 2.04-4.547 4.553-4.547s4.553 2.04 4.553 4.547c0 4.7-3.712 6.617-4.126 6.82zM12 8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
-          Apple
-        </a>
-        <a href="https://overcast.fm/" class="badge" aria-label="Listen on Overcast">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="#FC7E0F"><circle cx="12" cy="12" r="12"/></svg>
-          Overcast
-        </a>
-        <a href="https://music.youtube.com/@TheTimberBrosPodcast" class="badge" aria-label="Listen on YouTube Music">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          YouTube
-        </a>
-      </div>
+      <div class="listen-badges" id="cms-listen-badges"></div>
     </div>
   </div>
 </section>
 
 <!-- STATS BAR -->
 <div class="stats-bar">
-  <div class="container">
-    <div class="stat-block">
-      <span class="stat-num">5+</span>
-      <span class="stat-label">Episodes Released</span>
-    </div>
-    <div class="stat-block">
-      <span class="stat-num">4+</span>
-      <span class="stat-label">Platforms</span>
-    </div>
-    <div class="stat-block">
-      <span class="stat-num">100%</span>
-      <span class="stat-label">Australian Made</span>
-    </div>
-    <div class="stat-block">
-      <span class="stat-num">Oz</span>
-      <span class="stat-label">Soundz Studios, Sydney</span>
-    </div>
-  </div>
+  <div class="container" id="cms-stats-bar"></div>
 </div>
 
 <!-- TOPICS WE COVER -->
@@ -179,36 +132,14 @@
         <p class="text-sawdust" style="margin-top:16px;">
           Every episode digs into the stuff that matters to Australian woodworkers — whether you're a weekend hobbyist, a professional sawmiller, or somewhere in between. Plus the real conversations about health that blokes in trades often don't have.
         </p>
-        <div class="topic-grid">
-          <div class="topic-pill"><span class="topic-icon">🪵</span> Timber Species & Slabs</div>
-          <div class="topic-pill"><span class="topic-icon">🔧</span> Tools & Reviews</div>
-          <div class="topic-pill"><span class="topic-icon">🪚</span> Sawmilling</div>
-          <div class="topic-pill"><span class="topic-icon">🎨</span> Finishing & Resin</div>
-          <div class="topic-pill"><span class="topic-icon">🏗️</span> Workshop Setups</div>
-          <div class="topic-pill"><span class="topic-icon">❤️</span> Men's Health</div>
-          <div class="topic-pill"><span class="topic-icon">💜</span> Women's Health</div>
-          <div class="topic-pill"><span class="topic-icon">🤝</span> Industry Stories</div>
-        </div>
+        <div class="topic-grid" id="cms-topic-grid"></div>
       </div>
       <div class="reveal">
         <!-- Latest episode highlight -->
         <span class="eyebrow" style="margin-bottom:20px;">Latest Episode</span>
-        <div class="latest-ep">
-          <button class="play-btn" aria-label="Play latest episode">▶</button>
-          <a href="https://creators.spotify.com/pod/profile/the-timber-bros-podcast/episodes/Episode-05--Jarrah--Wood-Lathes--Dust--3D-Printing--Shed-Legends-e3lhq62" class="badge" aria-label="Listen on Spotify">
-          <div>
-            <div class="latest-ep-label">Ep. 5 — New Drop</div>
-            <div class="latest-ep-title">Jarrah, Wood Lathes, Dust, 3D Printing & Shed Legends</div>
-            <div class="latest-ep-meta" style="margin-top:4px;">Hazy & Plummo · 69 mins · Timber / Dust / Health</div>
-          </div>
-        </div>
+        <div class="latest-ep" id="cms-latest-ep"></div>
         <!-- Video teaser -->
-        <div class="video-teaser">
-          <div style="font-size:2.5rem; margin-bottom:12px;">🎥</div>
-          <h3>Video Podcast Coming Soon</h3>
-          <p>We're heading to the screen. Catch behind-the-scenes footage, workshop tours, and full visual episodes dropping soon.</p>
-          <a href="pages/community.html" class="btn btn-outline" style="font-size:0.8rem; padding:10px 20px;">Join the List</a>
-        </div>
+        <div class="video-teaser" id="cms-video-teaser"></div>
       </div>
     </div>
   </div>
@@ -233,58 +164,9 @@
     <div class="section-header reveal">
       <span class="eyebrow">Fresh From the Studio</span>
       <h2>Recent Episodes</h2>
-      <p>Pull up a stool and have a listen — new episodes drop every month.</p>
+      <p>Pull up a stool and have a listen — new eps drop every fortnight.</p>
     </div>
-    <div class="grid-3">
-      <div class="card episode-card reveal">
-        <div class="card-body">
-          <div class="ep-num">EP. 01</div>
-          <h3>Measure Twice, Cut Once, Talk Anytime</h3>
-          <p>Our inaugural episode introducing the Timber Bros and our podcast on all things timber and men's health.</p>
-          <div class="episode-tags">
-            <span class="tag tag-timber">Timber</span>
-            <span class="tag tag-health">Men's Health</span>
-          </div>
-          <a href="pages/episodes.html" class="btn btn-outline" style="font-size:0.8rem;padding:8px 18px;">Listen →</a>
-        </div>
-      </div>
-      <div class="card episode-card reveal">
-        <div class="card-body">
-          <div class="ep-num">EP. 02</div>
-          <h3>Sawdust, Routers & Real Talk</h3>
-          <p>Plummo and Hayzy dive into the world of woodworking with a laid-back chat about routers, hardwoods, and wood finishes, sharing practical tips, workshop experiences, and a few lessons learned the hard way and how to ask for help.</p>
-          <div class="episode-tags">
-            <span class="tag tag-tools">Routers</span>
-            <span class="tag tag-health">Men's Health</span>
-          </div>
-          <a href="pages/episodes.html" class="btn btn-outline" style="font-size:0.8rem;padding:8px 18px;">Listen →</a>
-        </div>
-      </div>
-      <div class="card episode-card reveal">
-        <div class="card-body">
-          <div class="ep-num">EP. 03</div>
-          <h3>Timber & Tall Ships - Huon Pine Gold</h3>
-          <p>Hazy and Plummo chat all things Huon Pine as we dive head first into an ancient timber that is being used to build the STS Young Endeavour II.</p>
-          <div class="episode-tags">
-            <span class="tag tag-tools">Tools</span>
-            <span class="tag tag-timber">Huon Pine</span>
-          </div>
-          <a href="pages/episodes.html" class="btn btn-outline" style="font-size:0.8rem;padding:8px 18px;">Listen →</a>
-        </div>
-      </div>
-      <div class="card episode-card reveal">
-        <div class="card-body">
-          <div class="ep-num">EP. 04</div>
-          <h3>Jigs, Gigs and Heart Rigs (The Heartwood Episode)</h3>
-          <p>Hazy and Plummo catch up with the Original Yellow Wiggle Mr Greg Page himself to discuss Heart Health amongst timber topics and the usual banter.</p>
-          <div class="episode-tags">
-            <span class="tag tag-health">Heart Health</span>
-            <span class="tag tag-health"> Yellow Wiggle</span>
-          </div>
-          <a href="pages/episodes.html" class="btn btn-outline" style="font-size:0.8rem;padding:8px 18px;">Listen →</a>
-        </div>
-      </div>
-    </div>
+    <div class="grid-3" id="cms-recent-episodes"></div>
     <div style="text-align:center;margin-top:40px;">
       <a href="pages/episodes.html" class="btn btn-primary">All Episodes</a>
     </div>
@@ -297,29 +179,14 @@
     <div class="grid-2" style="gap:60px; align-items:center;">
       <div class="reveal">
         <span class="eyebrow">Your Hosts</span>
-        <h2>Plummo & Hazy</h2>
-        <p class="text-sawdust" style="margin-top:16px;">
-          Two Sydney-based woodworkers who've turned their passion — and their social communities — into one of Australia's best conversations about timber and the life that surrounds it. Together they represent Hazys Wood and Plummo's Timber, both well-known names in the Aussie woodworking scene.
-        </p>
+        <h2>Hazy & Plummo</h2>
+        <p class="text-sawdust" style="margin-top:16px;" id="cms-hosts-teaser-text"></p>
         <a href="pages/hosts.html" class="btn btn-outline" style="margin-top:20px;">Meet the Blokes →</a>
       </div>
       <div class="reveal">
-        <div style="display:flex; gap:20px;">
-          <div class="card" style="flex:1; padding:28px; text-align:center;">
-            <div style="font-size:3rem; margin-bottom:12px;">🪓</div>
-            <h3 style="font-size:1.1rem; margin-bottom:8px;">Plummo</h3>
-            <p style="font-size:0.85rem;" class="text-smoke">Plummo's Timber<br>Sydney NSW</p>
-            <a href="https://plummostimber.com" class="text-amber" style="font-size:0.8rem;">plummostimber.com →</a>
-          </div>
-          <div class="card" style="flex:1; padding:28px; text-align:center;">
-            <div style="font-size:3rem; margin-bottom:12px;">🌲</div>
-            <h3 style="font-size:1.1rem; margin-bottom:8px;">Hazy</h3>
-            <p style="font-size:0.85rem;" class="text-smoke">Hazys Wood<br>Sydney NSW</p>
-            <a href="https://www.hazyswood.com.au" class="text-amber" style="font-size:0.8rem;">hazyswood.com.au →</a>
-          </div>
-        </div>
+        <div style="display:flex; gap:20px;" id="cms-hosts-mini"></div>
         <div style="margin-top:16px; padding:20px; background:rgba(200,132,42,0.06); border-radius:var(--radius); border:1px solid rgba(200,132,42,0.15); text-align:center;">
-          <p style="font-size:0.85rem; color:var(--smoke); margin:0;">Recorded at <strong><a href="https://ozsoundzstudios.com.au" style="color:var(--cream);">Oz Soundz Studios</a></strong>, Sydney NSW</p>
+          <p style="font-size:0.85rem; color:var(--smoke); margin:0;" id="cms-studio-line"></p>
         </div>
       </div>
     </div>
@@ -329,17 +196,7 @@
 <!-- SPONSOR CTA -->
 <section class="section-dark">
   <div class="container">
-    <div class="reveal" style="max-width:700px; margin:0 auto; text-align:center;">
-      <span class="eyebrow">For Australian Businesses</span>
-      <h2>Partner With The Timber Bros</h2>
-      <p class="text-sawdust" style="margin-top:16px; margin-bottom:28px;">
-        Reach a passionate, loyal audience of Australian woodworkers, tradespeople, and timber enthusiasts. Whether you sell tools, timber, finishes, or safety gear — your product belongs in their ears.
-      </p>
-      <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-        <a href="pages/sponsors.html" class="btn btn-primary">Become a Sponsor</a>
-        <a href="pages/contact.html" class="btn btn-outline">Talk to Us First</a>
-      </div>
-    </div>
+    <div class="reveal" style="max-width:700px; margin:0 auto; text-align:center;" id="cms-sponsor-cta"></div>
   </div>
 </section>
 
@@ -406,6 +263,9 @@
   </div>
 </footer>
 
+<script>window.CMS_DATA_BASE = "data/";</script>
 <script src="js/main.js"></script>
+<script src="js/cms-render.js"></script>
+<script>TimberBrosCMS.renderHome();</script>
 </body>
 </html>

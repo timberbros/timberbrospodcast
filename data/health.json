@@ -1,0 +1,35 @@
+{
+  "hotlines": {
+    "lifeline": "13 11 14",
+    "beyondblue": "1300 22 4636",
+    "crisisText": "Text \"HELLO\" to 741741"
+  },
+  "mensIntro": "Men in trades and construction have some of the highest rates of mental health struggles and suicide in Australia — yet they're least likely to seek help. Hazy and Plummo reckon that has to change. These are the organisations making a difference.",
+  "mensOrgs": [
+    { "icon": "🔵", "name": "Beyond Blue", "desc": "Mental health support, resources and a 24/7 helpline for Australians dealing with anxiety and depression.", "linkText": "beyondblue.org.au →", "phone": "1300 22 4636", "url": "https://www.beyondblue.org.au" },
+    { "icon": "🐕", "name": "Black Dog Institute", "desc": "Research-led mental health organisation focused on preventing and treating depression, anxiety, PTSD and bipolar disorder.", "linkText": "blackdoginstitute.org.au →", "phone": "", "url": "https://www.blackdoginstitute.org.au" },
+    { "icon": "❤️", "name": "Heart of the Nation", "desc": "The Heart Foundation's initiative supporting the cardiovascular health of Australians — particularly working-age men.", "linkText": "heartfoundation.org.au →", "phone": "1300 36 27 87", "url": "https://www.heartfoundation.org.au/heart-of-the-nation" },
+    { "icon": "🤝", "name": "MATES in Construction", "desc": "Suicide prevention program specifically developed for the Australian construction and building industry. Built by tradies, for tradies.", "linkText": "mates.org.au →", "phone": "1300 642 111", "url": "https://www.mates.org.au" },
+    { "icon": "📞", "name": "MensLine Australia", "desc": "Telephone and online support, information and referral service for men with emotional health or relationship concerns.", "linkText": "mensline.org.au →", "phone": "1300 78 99 78", "url": "https://www.mensline.org.au" },
+    { "icon": "🆘", "name": "Lifeline Australia", "desc": "24/7 crisis support and suicide prevention services for all Australians. If you're in crisis, call now.", "linkText": "lifeline.org.au →", "phone": "13 11 14", "url": "https://www.lifeline.org.au" }
+  ],
+  "mensTips": [
+    { "title": "🫁 Dust & Respiratory Health", "text": "Prolonged exposure to fine wood dust — especially from hardwoods — carries serious risks including asthma, sinusitis, and nasal cancers. Always wear a properly rated respirator (P2 or better) when sanding, routing, or machining. Get respiratory checks annually if you're in the trade." },
+    { "title": "👂 Hearing Protection", "text": "Power tools, routers, and planers can exceed 95dB — levels that cause permanent hearing loss within minutes of unprotected exposure. Use rated hearing protection every single time. Once it's gone, it's gone." },
+    { "title": "🦴 Musculoskeletal Health", "text": "Back injuries, shoulder strain, and repetitive stress injuries are endemic in woodworking. Invest in good workshop ergonomics — bench height, anti-fatigue matting, and taking proper breaks. See a physio early; don't push through pain." },
+    { "title": "🧴 Skin & Chemical Exposure", "text": "Finishes, resins, solvents, and timber extractives can cause skin sensitisation and chemical burns. Gloves, long sleeves, and proper ventilation aren't optional — they're standard practice." }
+  ],
+  "womensIntro": "Women are a growing and vital part of the Australian woodworking and timber industry. The Timber Bros are committed to highlighting and supporting women's health, wellbeing, and their place in the craft.",
+  "womensOrgs": [
+    { "icon": "💜", "name": "Jean Hailes for Women's Health", "desc": "Australia's leading women's health organisation — covering everything from hormonal health to mental wellbeing and workplace issues.", "linkText": "jean-hailes.org.au →", "phone": "", "url": "https://www.jean-hailes.org.au" },
+    { "icon": "🛡", "name": "1800RESPECT", "desc": "National sexual assault, domestic and family violence counselling service. Available 24/7 — confidential and free.", "linkText": "1800respect.org.au →", "phone": "1800 737 732", "url": "https://www.1800respect.org.au" },
+    { "icon": "🔵", "name": "Beyond Blue — Women", "desc": "Mental health support tailored to women's experiences — including postnatal depression, anxiety in the workplace, and more.", "linkText": "beyondblue.org.au →", "phone": "1300 22 4636", "url": "https://www.beyondblue.org.au" },
+    { "icon": "🎗", "name": "Cancer Australia", "desc": "Information, support and resources for women facing cancer — particularly breast cancer awareness and screening.", "linkText": "canceraustralia.gov.au →", "phone": "", "url": "https://www.canceraustralia.gov.au" },
+    { "icon": "🐼", "name": "PANDA", "desc": "Perinatal Anxiety and Depression Australia — supporting women, men and families affected by perinatal mental health conditions.", "linkText": "panda.org.au →", "phone": "1300 726 306", "url": "https://www.panda.org.au" },
+    { "icon": "🌲", "name": "Women in Timber", "desc": "Industry network supporting women across the Australian timber and forest products sector — mentoring, events, and community.", "linkText": "womenintimber.com.au →", "phone": "", "url": "https://www.womenintimber.com.au" }
+  ],
+  "womensTips": [
+    { "title": "💜 Women's Occupational Health in the Workshop", "text": "Respiratory protection, ergonomic tool sizing, and chemical exposure risks are often calibrated for male bodies. Women should be especially mindful to verify PPE sizing fits correctly, and to seek out research and advice specific to female physiology in trade environments." },
+    { "title": "🌸 Mental Health & Industry Isolation", "text": "Being a woman in a male-dominated industry carries unique pressures. If you're feeling isolated, the Women in Timber network and Beyond Blue both offer community and professional support to help navigate the craft and the workplace." }
+  ]
+}

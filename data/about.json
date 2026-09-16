@@ -1,0 +1,38 @@
+{
+  "originParagraphs": [
+    "The Timber Bros Podcast kicked off when Hazy and Plummo — both active creators in Australia's woodworking world — realised the conversations happening in the comments section, at markets, and between mates deserved a proper home.",
+    "Together they represent <a href=\"https://plummostimber.com\" target=\"_blank\" rel=\"noopener\">Plummo's Timber</a> and <a href=\"https://www.hazyswood.com.au\" target=\"_blank\" rel=\"noopener\">Hazys Wood</a> — two well-known names in the Aussie woodworking scene on social media — bringing those same communities into a long-form, no-frills podcast format.",
+    "The show is recorded at <strong style=\"color:var(--cream)\"><a href=\"https://ozsoundzstudios.com.au\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--cream)\">Oz Soundz Studios</a></strong> in Sydney NSW, and releases fortnightly on all major podcast platforms.",
+    "While currently audio-only, the lads are heading to video — with full visual episodes, workshop tours, and behind-the-scenes content in the pipeline. Watch this space."
+  ],
+  "quote": "\"We just wanted a yarn. Turns out a lot of people wanted to listen in.\"",
+  "formatItems": [
+    { "icon": "🎙", "boldText": "Fortnightly episodes", "rest": "— new drops every two weeks" },
+    { "icon": "⏱", "boldText": "45–75 minutes", "rest": "— long enough to go deep, short enough to get through on the drive" },
+    { "icon": "🎧", "boldText": "Audio podcast", "rest": "— available on Spotify, Apple, Overcast, YouTube & more" },
+    { "icon": "🎥", "boldText": "Video podcast coming soon", "rest": "— filmed at Oz Soundz Studios" },
+    { "icon": "📍", "boldText": "Sydney, NSW", "rest": "— proudly Australian, made for Aussie woodworkers" }
+  ],
+  "studio": {
+    "title": "Recorded at Oz Soundz Studios",
+    "text": "Sydney NSW — professional audio production giving The Timber Bros the sound quality their content deserves.",
+    "linkText": "ozsoundzstudios.com.au →",
+    "url": "https://ozsoundzstudios.com.au"
+  },
+  "whyCards": [
+    { "icon": "🪵", "title": "The Craft", "text": "Deep dives into timber species, resin techniques, finishing secrets, and the slow art of doing things right — even when it takes a little longer." },
+    { "icon": "🔧", "title": "The Tools", "text": "Honest reviews, head-to-head comparisons, and no-BS advice on the gear that's worth your hard-earned. From chainsaws to chisels." },
+    { "icon": "🏗️", "title": "The Business", "text": "The reality of running a timber business or workshop in the modern world — marketing, social media, pricing, and the stories behind the sawdust." },
+    { "icon": "🤝", "title": "The Community", "text": "Interviews with artisans, designers, sawmillers, and people who love working with their hands. People who've earned their calluses." },
+    { "icon": "❤️", "title": "Men's Health", "text": "Important conversations about mental health, physical wellbeing, and the unique pressures men in trades face — spoken plainly, without the fluff." },
+    { "icon": "💜", "title": "Women's Health & Women in Timber", "text": "Celebrating and supporting the women in our industry. Health conversations that matter, and shining a light on female makers doing amazing work." }
+  ],
+  "platforms": [
+    { "label": "🎵 Spotify", "url": "#" },
+    { "label": "🎙 Apple Podcasts", "url": "#" },
+    { "label": "📻 Overcast", "url": "#" },
+    { "label": "▶️ YouTube", "url": "#" },
+    { "label": "🎧 Pocket Casts", "url": "#" },
+    { "label": "📱 Google Podcasts", "url": "#" }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "g1",
+    "episode": "EP. 049",
+    "name": "Sarah Langford",
+    "role": "🏗️ Custom Furniture Maker · NSW",
+    "bio": "One of NSW's most respected custom furniture studio owners, Sarah shares her journey building a career in a male-dominated industry — the challenges, the wins, and the timber species she can't live without.",
+    "tags": ["Craft", "Women's Health"]
+  },
+  {
+    "id": "g2",
+    "episode": "EP. 047",
+    "name": "Dr. Mike Parrish",
+    "role": "🩺 Occupational Health Physician · VIC",
+    "bio": "Dr. Parrish breaks down the occupational health risks woodworkers face every day — dust, noise, chemical exposure, and the musculoskeletal injuries that end careers if left unchecked.",
+    "tags": ["Men's Health"]
+  },
+  {
+    "id": "g3",
+    "episode": "EP. 041",
+    "name": "Robbo Williams",
+    "role": "🪚 Sawmill Operator · QLD",
+    "bio": "Third-generation sawmiller from Far North Queensland, Robbo talks about the realities of running a portable mill business — the good seasons, the bad ones, and why he wouldn't swap it for anything.",
+    "tags": ["Sawmilling", "Business"]
+  },
+  {
+    "id": "g4",
+    "episode": "EP. 038",
+    "name": "Jess Carver",
+    "role": "🎨 Resin Artist & Woodworker · WA",
+    "bio": "Jess pioneered her unique style of resin-and-timber wall art and turned it into a six-figure business. She breaks down the process, the failures, and how she markets her work without a gallery.",
+    "tags": ["Techniques", "Business"]
+  },
+  {
+    "id": "g5",
+    "episode": "EP. 033",
+    "name": "Tom Strickland",
+    "role": "🧠 Psychologist · Trade Specialist · NSW",
+    "bio": "A psychologist who works specifically with tradespeople and men in blue-collar industries, Tom talks about what he hears in his practice — and the conversations blokes desperately need to start having.",
+    "tags": ["Men's Health"]
+  },
+  {
+    "id": "g6",
+    "episode": "EP. 027",
+    "name": "Andy & Lisa Mao",
+    "role": "🏡 Tiny House Builders · VIC",
+    "bio": "Husband-and-wife team who build entirely off-grid, fully timber-framed tiny homes. A fascinating look at how sustainable design meets craftsmanship — and how a couple survives building together.",
+    "tags": ["Timber", "Business"]
+  }
+]

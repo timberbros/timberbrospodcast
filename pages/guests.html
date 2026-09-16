@@ -55,7 +55,6 @@
       <li><a href="about.html">About</a></li>
       <li><a href="hosts.html">The Hosts</a></li>
       <li><a href="episodes.html">Episodes</a></li>
-      <li><a href="guests.html" class="active">Guests</a></li>
       <li><a href="health.html">Health</a></li>
       <li><a href="community.html">Community</a></li>
       <li><a href="sponsors.html">Sponsors</a></li>
@@ -69,7 +68,7 @@
   <div class="container">
     <span class="eyebrow">Voices of the Industry</span>
     <h1>Show Guests</h1>
-    <p>The makers, tradespeople, health professionals, and characters who've pulled up a stool with Plummo and Hazy.</p>
+    <p>The makers, tradespeople, health professionals, and characters who've pulled up a stool with Hazy and Plummo.</p>
   </div>
 </div>
 
@@ -81,52 +80,8 @@
       <p>A growing roster of Australians who know their timber — and their stuff.</p>
     </div>
 
-    <div class="grid-3" style="margin-bottom:56px;">
-      <div class="guest-card reveal">
-        <div class="guest-ep">EP. 03</div>
-        <div class="guest-name">Owen of @onlypens_by_owen</div>
-        <div class="guest-role">🏗️ Custom Pen Maker · NSW</div>
-        <p class="guest-bio">Straight out of the beautiful Port Macquarie Owen the founder of "Only Pens by Owen" and regular on Instagram shared his amazing story of making pens from the Huon Pine offcuts of the STS Yougn Endeavour II.</p>
-        <div class="episode-tags"><span class="tag tag-craft">Pen Making</span><span class="tag tag-timber">Huon Pine</span></div>
-      </div>
-      <div class="guest-card reveal">
-        <div class="guest-ep">EP. 04</div>
-        <div class="guest-name">The Original Yellow Wiggle - Mr. Greg Page</div>
-        <div class="guest-role">🩺 Entertainer · NSW</div>
-        <p class="guest-bio">Greg the "original" Yellow Wiggle sat down with the boys to chat on a serious topic of Heart Health and relayed his story of survival and recovery from Cardiac Arrest in our Heartwood segment. An amazing man and story not to be missed.</p>
-        <div class="episode-tags"><span class="tag tag-health">Men's Health</span><span class="tag tag-health">Heart Health</span></div>
-      </div>
-      <!--
-      <div class="guest-card reveal">
-        <div class="guest-ep">EP. 041</div>
-        <div class="guest-name">Robbo Williams</div>
-        <div class="guest-role">🪚 Sawmill Operator · QLD</div>
-        <p class="guest-bio">Third-generation sawmiller from Far North Queensland, Robbo talks about the realities of running a portable mill business — the good seasons, the bad ones, and why he wouldn't swap it for anything.</p>
-        <div class="episode-tags"><span class="tag tag-timber">Sawmilling</span><span class="tag tag-craft">Business</span></div>
-      </div>
-      <div class="guest-card reveal">
-        <div class="guest-ep">EP. 038</div>
-        <div class="guest-name">Jess Carver</div>
-        <div class="guest-role">🎨 Resin Artist & Woodworker · WA</div>
-        <p class="guest-bio">Jess pioneered her unique style of resin-and-timber wall art and turned it into a six-figure business. She breaks down the process, the failures, and how she markets her work without a gallery.</p>
-        <div class="episode-tags"><span class="tag tag-craft">Techniques</span><span class="tag tag-craft">Business</span></div>
-      </div>
-      <div class="guest-card reveal">
-        <div class="guest-ep">EP. 033</div>
-        <div class="guest-name">Tom Strickland</div>
-        <div class="guest-role">🧠 Psychologist · Trade Specialist · NSW</div>
-        <p class="guest-bio">A psychologist who works specifically with tradespeople and men in blue-collar industries, Tom talks about what he hears in his practice — and the conversations blokes desperately need to start having.</p>
-        <div class="episode-tags"><span class="tag tag-health">Men's Health</span></div>
-      </div>
-      <div class="guest-card reveal">
-        <div class="guest-ep">EP. 027</div>
-        <div class="guest-name">Andy & Lisa Mao</div>
-        <div class="guest-role">🏡 Tiny House Builders · VIC</div>
-        <p class="guest-bio">Husband-and-wife team who build entirely off-grid, fully timber-framed tiny homes. A fascinating look at how sustainable design meets craftsmanship — and how a couple survives building together.</p>
-        <div class="episode-tags"><span class="tag tag-timber">Timber</span><span class="tag tag-craft">Business</span></div>
-      </div>
-    -->
-    </div>
+    <!-- GUEST GRID (rendered from /data/guests.json) -->
+    <div class="grid-3" style="margin-bottom:56px;" id="cms-guest-grid"></div>
 
     <!-- APPLY SECTION -->
     <div id="apply" class="apply-box reveal">
@@ -151,8 +106,7 @@
         </div>
         <div class="form-card">
           <span class="eyebrow" style="margin-bottom:12px;">Guest Application</span>
-          <form action="https://formspree.io/f/xlgkognv" method="POST">
-            <input type="hidden" name="_subject" value="New Sponsor — Timber Bros">
+          <form data-form="guest" action="#" method="post" novalidate>
             <div class="form-group">
               <label for="g-name">Your Name</label>
               <input type="text" id="g-name" name="name" placeholder="Full name">
@@ -221,5 +175,7 @@
   </div>
 </footer>
 <script src="../js/main.js"></script>
+<script src="../js/cms-render.js"></script>
+<script>TimberBrosCMS.renderGuests();</script>
 </body>
 </html>

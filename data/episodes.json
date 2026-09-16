@@ -1,0 +1,118 @@
+[
+  {
+    "id": "ep052",
+    "number": "052",
+    "date": "2025-06-16",
+    "dateDisplay": "16 Jun 2025",
+    "title": "The Art of Reading Grain: Selecting Slabs Like a Pro",
+    "description": "How to pick the perfect slab — character, figure, and all the things that separate furniture timber from firewood. Hazy and Plummo debate their favourite species and share the secrets that took years to learn.",
+    "tags": ["Timber", "Craft"],
+    "duration": "64 min",
+    "featured": true,
+    "links": {
+      "spotify": "#",
+      "apple": "#",
+      "youtube": "#",
+      "overcast": "#"
+    }
+  },
+  {
+    "id": "ep051",
+    "number": "051",
+    "date": "2025-06-02",
+    "dateDisplay": "2 Jun 2025",
+    "title": "Bloke Check-In: Mental Health in the Trades",
+    "description": "A raw and honest chat about what it means to be a man in a trade — depression, isolation, and how to ask for help without feeling soft.",
+    "tags": ["Men's Health"],
+    "duration": "62 min",
+    "featured": false
+  },
+  {
+    "id": "ep050",
+    "number": "050",
+    "date": "2025-05-19",
+    "dateDisplay": "19 May 2025",
+    "title": "Chainsaw Mills: Worth the Hype?",
+    "description": "Three portable chainsaw mills tested head-to-head straight from the paddock. Hazy and Plummo give you the honest verdict.",
+    "tags": ["Tools", "Sawmilling"],
+    "duration": "71 min",
+    "featured": false
+  },
+  {
+    "id": "ep049",
+    "number": "049",
+    "date": "2025-05-05",
+    "dateDisplay": "5 May 2025",
+    "title": "Women in the Workshop — Guest: Sarah Langford",
+    "description": "Sarah runs one of NSW's most respected custom furniture studios and shares how she's built a career in a male-dominated industry.",
+    "tags": ["Women's Health", "Interview"],
+    "duration": "58 min",
+    "featured": false
+  },
+  {
+    "id": "ep048",
+    "number": "048",
+    "date": "2025-04-21",
+    "dateDisplay": "21 Apr 2025",
+    "title": "Resin: The Good, The Bad & The Ugly",
+    "description": "Everything you wanted to know about high-clarity epoxy resin casting — from prep and pouring to the horror stories of what can go wrong.",
+    "tags": ["Techniques", "Timber"],
+    "duration": "66 min",
+    "featured": false
+  },
+  {
+    "id": "ep047",
+    "number": "047",
+    "date": "2025-04-07",
+    "dateDisplay": "7 Apr 2025",
+    "title": "Back Pain, Hearing Loss & Workshop Safety",
+    "description": "The occupational health hazards that woodworkers ignore until it's too late. Dr. Mike Parrish joins to explain what you need to know.",
+    "tags": ["Men's Health", "Interview"],
+    "duration": "54 min",
+    "featured": false
+  },
+  {
+    "id": "ep046",
+    "number": "046",
+    "date": "2025-03-24",
+    "dateDisplay": "24 Mar 2025",
+    "title": "Australian Hardwoods: A Field Guide",
+    "description": "Ironbark, Blackwood, Huon Pine, Red Cedar — Plummo and Hazy break down the character and working properties of iconic Aussie species.",
+    "tags": ["Timber"],
+    "duration": "78 min",
+    "featured": false
+  },
+  {
+    "id": "ep045",
+    "number": "045",
+    "date": "2025-03-10",
+    "dateDisplay": "10 Mar 2025",
+    "title": "Setting Up Your First Real Workshop",
+    "description": "From a back shed with a jigsaw to a proper setup — the decisions, the spend, and the order of operations that actually make sense.",
+    "tags": ["Tools", "Business"],
+    "duration": "69 min",
+    "featured": false
+  },
+  {
+    "id": "ep044",
+    "number": "044",
+    "date": "2025-02-24",
+    "dateDisplay": "24 Feb 2025",
+    "title": "The Social Media Woodworker: Is It Worth It?",
+    "description": "Hazy and Plummo get personal about how building an audience online changed their businesses — the good, the grind, and the weird side.",
+    "tags": ["Business"],
+    "duration": "61 min",
+    "featured": false
+  },
+  {
+    "id": "ep043",
+    "number": "043",
+    "date": "2025-02-10",
+    "dateDisplay": "10 Feb 2025",
+    "title": "Hand Tools vs Power Tools: The Real Debate",
+    "description": "Both hosts take a side and argue it hard. Who wins? That's for the listeners to decide. Spoiler: it gets heated.",
+    "tags": ["Tools"],
+    "duration": "73 min",
+    "featured": false
+  }
+]
