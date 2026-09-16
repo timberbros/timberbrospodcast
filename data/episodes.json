@@ -6,7 +6,11 @@
     "dateDisplay": "",
     "title": "Jarrah, Wood Lathes, Dust, 3D Printing & Shed Legends",
     "description": "In this episode Plummo & Hazy let fly with a shed full of Jarrah, wood lathes, 3D printing, sanding tips and enough Aussie banter to keep the splinters laughing.",
-    "tags": ["Timber", "Tools", "Men's Health"],
+    "tags": [
+      "Timber",
+      "Tools",
+      "Men's Health"
+    ],
     "duration": "",
     "featured": true,
     "links": {
@@ -23,7 +27,9 @@
     "dateDisplay": "3 May 2026",
     "title": "EP04 — Jigs, Gigs and Heart Rigs",
     "description": "Fire up the shed and join Plummo & Hazy for another ripper episode of The Timber Bros Podcast—packed with timber, tools, workshop banter, Aussie laughs, and a powerful Heartwood yarn with original Yellow Wiggle Greg Page about heart health, resilience, and looking after the one tool you can’t replace.",
-    "tags": ["Men's Health"],
+    "tags": [
+      "Men's Health"
+    ],
     "duration": "63 min",
     "featured": false
   },
@@ -34,7 +40,9 @@
     "dateDisplay": "15 Apr 2026",
     "title": "EP03 — Timber & Tall Ships - Huon Pine Gold",
     "description": "A raw and honest chat about ancient Huon Pine timbers from Tassie and it being used in the building of the STS Young Endeavour Tall ship with offcuts being made into luxury pens. We talk Japanese saws, Aussie Hardwoods and an honest chat about alcohol consumption.",
-    "tags": ["Men's Health"],
+    "tags": [
+      "Men's Health"
+    ],
     "duration": "63 min",
     "featured": false
   },
@@ -45,7 +53,10 @@
     "dateDisplay": "15 Mar 2026",
     "title": "EP02 — Sawdust, Routers & Real Talk",
     "description": "We dive into episode two with a chart about routers, finishes and practical tips and tricks and share our experiences in the shed and get inside our own heads. We also chat Diabaetes which is a siletn killer in Australia and the globe.",
-    "tags": ["Routers", "Finishes"],
+    "tags": [
+      "Routers",
+      "Finishes"
+    ],
     "duration": "52 min",
     "featured": false
   },
@@ -56,8 +67,32 @@
     "dateDisplay": "14 Feb 2026",
     "title": "EP01 — Measure Twice, Cut Once, Talk Anytime",
     "description": "In our inaugural episode and the commencement of a podcast era join Plummo and Hazy as we chat all things timber, mens health with a lot of larrikin mixed in.",
-    "tags": ["Men's Health", "Intro"],
+    "tags": [
+      "Men's Health",
+      "Intro"
+    ],
     "duration": "55 min",
     "featured": false
+  },
+  {
+    "id": "ep1789591876988",
+    "number": "06",
+    "title": "Hard Wood, Hard Lessons - The Gidgee Episode",
+    "description": "What happens when you put timber through university, throw a chunk of Gidgee at a lathe, spend half your life sanding it, and then realise you probably should have gone to the gym? Welcome back to The Timber Bros Podcast with Plummo & Hazy — where woodworking, timber, tools, projects and the occasional workshop disaster all get thrown into the same bloody shed. This episode is a ripper.\nWe kick things off with Engineered Timber and ask the question every traditional woodworker eventually faces: is it still timber if you’ve glued half a forest together? We get stuck into plywood, LVL, Glulam, CLT and why engineered timber isn't necessarily the poor cousin of solid timber.\n\nThen it's time for Timber of the Week — Gidgee.\nThis stuff is seriously hard, seriously heavy and seriously good-looking. We talk about its incredible density, colour, grain, workability and what we'd actually make if someone dropped a beautiful chunk of Gidgee on the workshop bench. Then we hit the sanding bench with our mates at SPX Abrasives and talk about one of woodworking's great truths: You can never underestimate how much bloody sanding there is.\n\nFrom there it's Jig of the Week, where we're building a routing jig for putting a proper juice groove around a chopping board. Simple idea. Great result. Absolutely capable of turning an expensive piece of timber into an expensive serving platter if you get it wrong.\n\nWe also get stuck into the projects currently occupying our workshops, including the inevitable question:\nHow much did that bloody project actually cost?",
+    "date": "2026-08-30",
+    "dateDisplay": "30 AUG 2026",
+    "duration": "54 MIN",
+    "tags": [
+      "Tools",
+      "Men's Health",
+      "Timber"
+    ],
+    "featured": true,
+    "links": {
+      "spotify": "https://creators.spotify.com/pod/profile/the-timber-bros-podcast/episodes/EP06---Hard-Wood--Hard-Lessons--The-Gidgee-Episode-e3o2khq",
+      "apple": "https://podcasts.apple.com/au/podcast/ep06-hard-wood-hard-lessons-the-gidgee-episode/id1877556782?i=1000786711466",
+      "youtube": "https://www.youtube.com/channel/UC4CYmgWLir-UwWvC2YmHqNA/posts",
+      "overcast": ""
+    }
   }
 ]
